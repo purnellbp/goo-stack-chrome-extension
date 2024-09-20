@@ -35,6 +35,5 @@
   ],
   "background": {
     "service_worker": "background.js"
-  },
-  "theme_color": "#4a4a4a"
+  }
 }

@@ -19,7 +19,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 25% 50% 25%;
   height: 100%;
 }
 
@@ -33,11 +33,13 @@ ul {
   flex-direction: column;
   padding: 15px;
   box-sizing: border-box;
-  height: 100%; /* Ensure full height */
-  overflow: hidden; /* Hide overflow */
+  height: 100%; 
+  overflow: hidden;
 }
 
 h3 {
+  align-items: center;
+  justify-content: space-between;
   margin: 0 0 15px 0;
   font-size: 14px;
   font-weight: 500;
@@ -69,8 +71,8 @@ h3 {
 /* Sessions List */
 #sessions-list {
   margin-bottom: 15px;
-  overflow-y: auto; /* Enable vertical scrolling */
-  flex-grow: 1; /* Allow list to grow and take available space */
+  overflow-y: auto; 
+  flex-grow: 1; 
   scroll-behavior: smooth;
   scrollbar-width: thin;
 }
@@ -276,6 +278,9 @@ h3 {
   --icon-invert: 0;
   --toast-background: #333;
   --toast-text-color: #fff;
+  --switch-background: #ccc;
+  --switch-checked-background: #4caf50;
+  --switch-handle: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -290,6 +295,9 @@ h3 {
     --button-hover-background: #5a5a5a;
     --icon-invert: 1;
     --toast-background: #555;
+    --switch-background: #555;
+    --switch-checked-background: #4caf50;
+    --switch-handle: #ffffff;
   }
 }
 
@@ -333,5 +341,88 @@ button:hover, .button:hover {
   filter: invert(var(--icon-invert));
 }
 
-/* Add more style rules using these variables as needed */
+/* CSS for Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-left: 10px;
+}
 
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--switch-background);
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: var(--switch-handle);
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--switch-checked-background);
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Rounded slider */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.filter-column {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  border-left: 1px solid var(--border-color);
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.icon-link {
+  padding: 5px;
+  color: var(--text-color);
+}

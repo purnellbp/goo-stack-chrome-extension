@@ -17,6 +17,7 @@ Goo Stack is a powerful Chrome extension designed to help users efficiently mana
 - Drag to reorder saved sessions
 - Audio indicator for tabs playing sound
 - Responsive design with dark mode support
+- Filter non-HTTP tabs
 
 ## Installation
 
@@ -37,10 +38,29 @@ Goo Stack is a powerful Chrome extension designed to help users efficiently mana
 8. Use the new window button to open a saved session in a new window.
 9. Drag saved sessions to reorder them.
 10. Use the delete button to remove a saved session.
+11. Toggle the switch next to "Open Tabs" to filter non-HTTP tabs.
 
 ## Development
 
 This extension is built using vanilla JavaScript, HTML, and CSS. It uses the Chrome Extension API for tab management and IndexedDB for storing sessions.
 
+### Key Components
 
+- `popup.html`: The main interface of the extension.
+- `popup.js`: Contains the core functionality for managing tabs and sessions.
+- `styles.css`: Defines the styling for the extension, including dark mode support.
+- `background.js`: Handles background tasks and icon updates.
+- `manifest.json`: Defines the extension's properties and permissions.
+
+### Libraries Used
+
+- Sortable.js: For drag-and-drop functionality of tabs and sessions.
+
+## Contributing
+
+Contributions to Goo Stack are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
 

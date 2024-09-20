@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const dbName = 'GooStackDB';
   const storeName = 'sessions';
 
+  const filterNonHttpCheckbox = document.getElementById('filter-non-http');
+  
+  // Add event listener for the filter switch
+  filterNonHttpCheckbox.addEventListener('change', function () {
+    updateTabsList();
+  });
+
   function openDB() {
     const request = indexedDB.open(dbName, 1);
     request.onupgradeneeded = function (event) {
@@ -32,73 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     tabs.forEach((tab) => {
       try {
-        
-        const li = document.createElement('li');
-        li.setAttribute('data-tab-id', tab.id);
-
-        // Add drag handle
-        const dragHandle = document.createElement('div');
-        dragHandle.className = 'drag-handle';
-        dragHandle.innerHTML = '<img src="icons/ui/drag-handle.svg" alt="Drag">';
-        li.appendChild(dragHandle);
-
-        // Favicon handling
-        console.log(tab.favIconUrl);
-        if (tab.favIconUrl) {
-          const favicon = document.createElement('img');
-          favicon.className = 'tab-favicon';
-          favicon.alt = 'Favicon';
-          if (tab.favIconUrl && tab.favIconUrl.startsWith('http')) {
-            favicon.src = tab.favIconUrl;
-          } else {
-            favicon.src = 'icons/ui/box.svg';
-          }
-          favicon.onerror = function() {
-            this.src = 'icons/icon16.png';
-          };
-          li.appendChild(favicon);
-        }
-
-        const titleSpan = document.createElement('span');
-        titleSpan.className = 'tab-title';
-        titleSpan.textContent = tab.title || tab.url;
-        
-        // Add click event to activate the tab
-        titleSpan.addEventListener('click', function() {
-          chrome.tabs.update(tab.id, {active: true}, function() {
-            if (chrome.runtime.lastError) {
-              console.error('Error activating tab:', chrome.runtime.lastError);
-            } else {
-              window.close(); // Close the popup after activating the tab
-            }
-          });
-        });
-
-        // Add audio indicator
-        if (tab.audible) {
-          const audioIndicator = document.createElement('div');
-          audioIndicator.className = 'audio-indicator';
-          for (let i = 0; i < 4; i++) {
-            const wave = document.createElement('span');
-            wave.className = 'audio-wave';
-            audioIndicator.appendChild(wave);
-          }
-          li.appendChild(audioIndicator);
-        }
-
-        const closeBtn = document.createElement('button');
-        closeBtn.className = 'close-btn';
-        closeBtn.innerHTML = '<img src="icons/ui/cross.svg" alt="Close">';
-        closeBtn.addEventListener('click', function (e) {
-          e.stopPropagation();
-          chrome.tabs.remove(tab.id, function () {
-            li.remove();
-            updateTabsOrder();
-          });
-        });
-
-        li.appendChild(titleSpan);
-        li.appendChild(closeBtn);
+        const li = createTabListItem(tab);
         tabsList.appendChild(li);
       } catch (error) {
         console.error('Error rendering tab:', tab, error);
@@ -115,10 +56,78 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  function getTabs() {
-    chrome.tabs.query({ currentWindow: true }, function (tabs) {
-      renderTabs(tabs);
+  function createTabListItem(tab) {
+    const li = document.createElement('li');
+    li.setAttribute('data-tab-id', tab.id);
+
+    // Add drag handle
+    const dragHandle = document.createElement('div');
+    dragHandle.className = 'drag-handle';
+    dragHandle.innerHTML = '<img src="icons/ui/drag-handle.svg" alt="Drag">';
+    li.appendChild(dragHandle);
+
+    // Favicon handling
+    if (tab.favIconUrl) {
+      const favicon = document.createElement('img');
+      favicon.className = 'tab-favicon';
+      favicon.alt = 'Favicon';
+      if (tab.favIconUrl.startsWith('http')) {
+        favicon.src = tab.favIconUrl;
+      } else {
+        favicon.src = 'icons/ui/box.svg';
+      }
+      favicon.onerror = function() {
+        this.src = 'icons/icon16.png';
+      };
+      li.appendChild(favicon);
+    }
+
+    const titleSpan = document.createElement('span');
+    titleSpan.className = 'tab-title';
+    titleSpan.textContent = tab.title || tab.url;
+    
+    // Add click event to activate the tab
+    titleSpan.addEventListener('click', function() {
+      chrome.tabs.update(tab.id, {active: true}, function() {
+        if (chrome.runtime.lastError) {
+          console.error('Error activating tab:', chrome.runtime.lastError);
+        } else {
+          window.close(); // Close the popup after activating the tab
+        }
+      });
     });
+
+    // Add audio indicator
+    if (tab.audible) {
+      const audioIndicator = document.createElement('div');
+      audioIndicator.className = 'audio-indicator';
+      for (let i = 0; i < 4; i++) {
+        const wave = document.createElement('span');
+        wave.className = 'audio-wave';
+        audioIndicator.appendChild(wave);
+      }
+      li.appendChild(audioIndicator);
+    }
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'close-btn';
+    closeBtn.innerHTML = '<img src="icons/ui/cross.svg" alt="Close">';
+    closeBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      chrome.tabs.remove(tab.id, function () {
+        li.remove();
+        updateTabsOrder();
+      });
+    });
+
+    li.appendChild(titleSpan);
+    li.appendChild(closeBtn);
+
+    return li;
+  }
+
+  function getTabs() {
+    updateTabsList();
   }
 
   function showToast(message) {
@@ -294,6 +303,38 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     showToast('Tab order updated');
+  }
+
+  function updateTabsList() {
+    chrome.tabs.query({}, function(tabs) {
+      const tabsList = document.getElementById('tabs-list');
+      tabsList.innerHTML = '';
+      let visibleTabsCount = 0;
+
+      tabs.forEach(function(tab) {
+        // Check if we should filter out non-HTTP tabs
+        if (filterNonHttpCheckbox.checked && !tab.url.startsWith('http')) {
+          return; // Skip this tab
+        }
+
+        visibleTabsCount++;
+
+        const li = createTabListItem(tab);
+        tabsList.appendChild(li);
+      });
+
+      // Update the tabs count
+      document.getElementById('tabs-count').textContent = visibleTabsCount;
+
+      // Initialize Sortable for tabs list
+      new Sortable(tabsList, {
+        animation: 150,
+        handle: '.drag-handle',
+        onEnd: function (evt) {
+          updateTabsOrder();
+        }
+      });
+    });
   }
 
   function setColorScheme() {

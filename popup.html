@@ -18,10 +18,29 @@
       </div>
       
       <!-- Open Tabs Column -->
-      <div class="tabs-column">
-        <h3>Open Tabs</h3>
+      <div class="tabs-column ">
+        <h3>Open Tabs (<span id="tabs-count">0</span>)</h3>
         <input type="text" id="search" class="input-block" placeholder="Search tabs...">
         <ul id="tabs-list" class="list"></ul>
+      </div>
+
+      <!-- New Filter Column -->
+      <div class="filter-column">
+        <h3>Settings</h3>
+        <div class="filter-option">
+          <label class="switch">
+            <input type="checkbox" id="filter-non-http">
+            <span class="slider round"></span>
+          </label>
+          <label for="filter-non-http">Hide local tabs</label>
+        </div>
+        <div class="footer">
+          
+          <p>Follow me on </p>
+          <a href="https://x.com/Goo_Gurt_" target="_blank"> 
+            <img src="icons/ui/x.svg" alt="X" class="icon-link">
+          </a>
+        </div>
       </div>
     </div>
   </div>
