@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "De naam van de extensie"
+    },
+    "extensionDescription": {
+        "message": "Beheer en organiseer je tabbladen efficiënt.",
+        "description": "Beschrijving voor de extensie in het manifest"
+    },
+    "savedSessions": {
+        "message": "Opgeslagen Sessies",
+        "description": "De titel voor opgeslagen sessies"
+    },
+    "nameCurrentSession": {
+        "message": "Naam huidige sessie...",
+        "description": "Plaatshoudertekst voor de invoer van de sessienaam"
+    },
+    "saveSession": {
+        "message": "Sessie Opslaan",
+        "description": "Tekst van de knop voor het opslaan van een sessie"
+    },
+    "openTabs": {
+        "message": "Openstaande Tabbladen",
+        "description": "Titel voor de kolom met openstaande tabbladen"
+    },
+    "searchTabs": {
+        "message": "Zoek tabbladen...",
+        "description": "Plaatshoudertekst voor het zoeken naar tabbladen"
+    },
+    "settings": {
+        "message": "Instellingen",
+        "description": "Titel voor de kolom met instellingen"
+    },
+    "hideLocalTabs": {
+        "message": "Verberg lokale tabbladen",
+        "description": "Label voor het verbergen van lokale tabbladen"
+    },
+    "followMe": {
+        "message": "Volg me op",
+        "description": "Tekst voor de link naar sociale media"
+    },
+    "openTabsCount": {
+        "message": "Openstaande Tabbladen ($1)",
+        "description": "Titel van openstaande tabbladen met aantal.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Opgeslagen Sessies",
+        "description": "Titel van opgeslagen sessies met aantal.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Voer een sessienaam in.",
+        "description": "Foutmelding wanneer de sessienaam leeg is."
+    },
+    "sessionSaved": {
+        "message": "Sessie \"$1\" opgeslagen!",
+        "description": "Bevestigingsbericht wanneer een sessie is opgeslagen.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Mijn Sessie"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Fout bij het opslaan van de sessie. Probeer het opnieuw.",
+        "description": "Foutmelding wanneer het opslaan van de sessie mislukt."
+    },
+    "sessionDeleted": {
+        "message": "Sessie \"$1\" verwijderd.",
+        "description": "Bevestigingsbericht wanneer een sessie is verwijderd.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Mijn Sessie"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Fout bij het verwijderen van de sessie. Probeer het opnieuw.",
+        "description": "Foutmelding wanneer het verwijderen van de sessie mislukt."
+    },
+    "errorActivatingTab": {
+        "message": "Fout bij het activeren van het tabblad: $1",
+        "description": "Foutmelding wanneer het activeren van het tabblad mislukt.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "een fout"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Sessierangorde bijgewerkt",
+        "description": "Bevestigingsbericht wanneer de rangorde van de sessies is bijgewerkt."
+    },
+    "tabOrderUpdated": {
+        "message": "Tabbladrangorde bijgewerkt",
+        "description": "Bevestigingsbericht wanneer de rangorde van de tabbladen is bijgewerkt."
+    },
+    "errorRenderingTab": {
+        "message": "Fout bij het weergeven van het tabblad:",
+        "description": "Foutmelding wanneer het weergeven van een tabblad mislukt."
+    },
+    "drag": {
+        "message": "Slepen",
+        "description": "Alternatieve tekst voor de afbeelding van de sleepknop."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Alternatieve tekst voor de favicon-afbeelding."
+    },
+    "close": {
+        "message": "Sluiten",
+        "description": "Alternatieve tekst voor de knopafbeelding om te sluiten."
+    },
+    "openInNewWindow": {
+        "message": "Openen in nieuw venster",
+        "description": "Alternatieve tekst voor de knopafbeelding om te openen in een nieuw venster."
+    },
+    "delete": {
+        "message": "Verwijderen",
+        "description": "Alternatieve tekst voor de knopafbeelding om te verwijderen."
+    },
+    "testMessage": {
+        "message": "Testbericht",
+        "description": "Plaatshouder voor test"
+    }
+}

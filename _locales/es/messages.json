@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "El nombre de la extensión"
+    },
+    "extensionDescription": {
+        "message": "Administra y organiza tus pestañas de manera eficiente.",
+        "description": "Descripción de la extensión en el manifiesto"
+    },
+    "savedSessions": {
+        "message": "Sesiones guardadas",
+        "description": "El encabezado para las sesiones guardadas"
+    },
+    "nameCurrentSession": {
+        "message": "Nombra la sesión actual...",
+        "description": "Texto de marcador para el campo de entrada de la sesión"
+    },
+    "saveSession": {
+        "message": "Guardar sesión",
+        "description": "Texto del botón para guardar una sesión"
+    },
+    "openTabs": {
+        "message": "Pestañas abiertas",
+        "description": "Encabezado para la columna de pestañas abiertas"
+    },
+    "searchTabs": {
+        "message": "Buscar pestañas...",
+        "description": "Texto de marcador para buscar pestañas"
+    },
+    "settings": {
+        "message": "Configuración",
+        "description": "Encabezado para la columna de configuración"
+    },
+    "hideLocalTabs": {
+        "message": "Ocultar pestañas locales",
+        "description": "Etiqueta para ocultar pestañas locales"
+    },
+    "followMe": {
+        "message": "Sígueme en",
+        "description": "Texto para el enlace de redes sociales"
+    },
+    "openTabsCount": {
+        "message": "Pestañas abiertas ($1)",
+        "description": "Encabezado de pestañas abiertas con el conteo.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Sesiones guardadas",
+        "description": "Encabezado de sesiones guardadas con el conteo.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Por favor, introduce un nombre de sesión.",
+        "description": "Mensaje de error cuando el nombre de la sesión está vacío."
+    },
+    "sessionSaved": {
+        "message": "Sesión \"$1\" guardada!",
+        "description": "Mensaje de confirmación cuando la sesión se guarda.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Mi Sesión"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Error al guardar la sesión. Inténtalo de nuevo.",
+        "description": "Mensaje de error cuando falla el guardado de la sesión"
+    },
+    "sessionDeleted": {
+        "message": "Sesión \"$1\" eliminada.",
+        "description": "Mensaje de confirmación cuando la sesión se elimina.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Mi Sesión"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Error al eliminar la sesión. Inténtalo de nuevo.",
+        "description": "Mensaje de error cuando falla la eliminación de la sesión"
+    },
+    "errorActivatingTab": {
+        "message": "Error al activar la pestaña: $1",
+        "description": "Mensaje de error cuando falla la activación de una pestaña.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "algún error"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Orden de sesiones actualizado",
+        "description": "Mensaje de confirmación cuando se actualiza el orden de las sesiones"
+    },
+    "tabOrderUpdated": {
+        "message": "Orden de pestañas actualizado",
+        "description": "Mensaje de confirmación cuando se actualiza el orden de las pestañas"
+    },
+    "errorRenderingTab": {
+        "message": "Error al renderizar la pestaña:",
+        "description": "Mensaje de error cuando falla el renderizado de una pestaña"
+    },
+    "drag": {
+        "message": "Arrastrar",
+        "description": "Texto alternativo para la imagen del controlador de arrastre"
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Texto alternativo para la imagen del favicon"
+    },
+    "close": {
+        "message": "Cerrar",
+        "description": "Texto alternativo para el botón de cerrar"
+    },
+    "openInNewWindow": {
+        "message": "Abrir en nueva ventana",
+        "description": "Texto alternativo para el botón de abrir en una nueva ventana"
+    },
+    "delete": {
+        "message": "Eliminar",
+        "description": "Texto alternativo para el botón de eliminar"
+    },
+    "testMessage": {
+        "message": "Mensaje de prueba",
+        "description": "Marcador de prueba"
+    }
+}

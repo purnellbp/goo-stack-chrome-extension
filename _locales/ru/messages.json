@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Название расширения"
+    },
+    "extensionDescription": {
+        "message": "Эффективно управляйте и организуйте свои вкладки.",
+        "description": "Описание расширения в манифесте"
+    },
+    "savedSessions": {
+        "message": "Сохраненные сеансы",
+        "description": "Заголовок для сохраненных сеансов"
+    },
+    "nameCurrentSession": {
+        "message": "Назовите текущий сеанс...",
+        "description": "Заполнитель для ввода названия сеанса"
+    },
+    "saveSession": {
+        "message": "Сохранить сеанс",
+        "description": "Текст кнопки для сохранения сеанса"
+    },
+    "openTabs": {
+        "message": "Открытые вкладки",
+        "description": "Заголовок для столбца открытых вкладок"
+    },
+    "searchTabs": {
+        "message": "Искать вкладки...",
+        "description": "Заполнитель для поиска вкладок"
+    },
+    "settings": {
+        "message": "Настройки",
+        "description": "Заголовок для столбца настроек"
+    },
+    "hideLocalTabs": {
+        "message": "Скрыть локальные вкладки",
+        "description": "Метка для скрытия локальных вкладок"
+    },
+    "followMe": {
+        "message": "Подписаться на меня",
+        "description": "Текст для ссылки на социальные сети"
+    },
+    "openTabsCount": {
+        "message": "Открытые вкладки ($1)",
+        "description": "Заголовок открытых вкладок с количеством.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 сохраненных сеансов",
+        "description": "Заголовок сохраненных сеансов с количеством.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Пожалуйста, введите название сеанса.",
+        "description": "Сообщение об ошибке, если название сеанса пустое."
+    },
+    "sessionSaved": {
+        "message": "Сеанс \"$1\" сохранен!",
+        "description": "Подтверждение при сохранении сеанса.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Мой сеанс"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Ошибка сохранения сеанса. Пожалуйста, попробуйте снова.",
+        "description": "Сообщение об ошибке при сбое сохранения сеанса."
+    },
+    "sessionDeleted": {
+        "message": "Сеанс \"$1\" удален.",
+        "description": "Подтверждение при удалении сеанса.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Мой сеанс"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Ошибка удаления сеанса. Пожалуйста, попробуйте снова.",
+        "description": "Сообщение об ошибке при сбое удаления сеанса."
+    },
+    "errorActivatingTab": {
+        "message": "Ошибка активации вкладки: $1",
+        "description": "Сообщение об ошибке при сбое активации вкладки.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "некоторая ошибка"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Порядок сеансов обновлен",
+        "description": "Подтверждение при обновлении порядка сеансов"
+    },
+    "tabOrderUpdated": {
+        "message": "Порядок вкладок обновлен",
+        "description": "Подтверждение при обновлении порядка вкладок"
+    },
+    "errorRenderingTab": {
+        "message": "Ошибка рендеринга вкладки:",
+        "description": "Сообщение об ошибке при сбое рендеринга вкладки"
+    },
+    "drag": {
+        "message": "Перетащить",
+        "description": "Альтернативный текст для изображения элемента перетаскивания"
+    },
+    "favicon": {
+        "message": "Фавикон",
+        "description": "Альтернативный текст для изображения фавикона"
+    },
+    "close": {
+        "message": "Закрыть",
+        "description": "Альтернативный текст для кнопки закрытия"
+    },
+    "openInNewWindow": {
+        "message": "Открыть в новом окне",
+        "description": "Альтернативный текст для кнопки открытия в новом окне"
+    },
+    "delete": {
+        "message": "Удалить",
+        "description": "Альтернативный текст для кнопки удаления"
+    },
+    "testMessage": {
+        "message": "Тестовое сообщение",
+        "description": "Тестовый заполнитель"
+    }
+}

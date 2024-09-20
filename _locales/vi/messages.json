@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Tên của tiện ích mở rộng"
+    },
+    "extensionDescription": {
+        "message": "Quản lý và tổ chức các tab của bạn một cách hiệu quả.",
+        "description": "Mô tả cho tiện ích mở rộng trong manifest"
+    },
+    "savedSessions": {
+        "message": "Phiên Đã Lưu",
+        "description": "Tiêu đề cho các phiên đã lưu"
+    },
+    "nameCurrentSession": {
+        "message": "Đặt tên phiên hiện tại...",
+        "description": "Văn bản giữ chỗ cho nhập tên phiên"
+    },
+    "saveSession": {
+        "message": "Lưu Phiên",
+        "description": "Văn bản nút để lưu phiên"
+    },
+    "openTabs": {
+        "message": "Tab Mở",
+        "description": "Tiêu đề cho cột tab mở"
+    },
+    "searchTabs": {
+        "message": "Tìm kiếm tab...",
+        "description": "Văn bản giữ chỗ để tìm kiếm tab"
+    },
+    "settings": {
+        "message": "Cài đặt",
+        "description": "Tiêu đề cho cột cài đặt"
+    },
+    "hideLocalTabs": {
+        "message": "Ẩn tab cục bộ",
+        "description": "Nhãn để ẩn tab cục bộ"
+    },
+    "followMe": {
+        "message": "Theo dõi tôi trên",
+        "description": "Văn bản cho liên kết mạng xã hội"
+    },
+    "openTabsCount": {
+        "message": "Tab Mở ($1)",
+        "description": "Tiêu đề tab mở với số lượng.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Phiên Đã Lưu",
+        "description": "Tiêu đề cho phiên đã lưu với số lượng.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Vui lòng nhập tên phiên.",
+        "description": "Thông báo lỗi khi tên phiên để trống."
+    },
+    "sessionSaved": {
+        "message": "Phiên \"$1\" đã được lưu!",
+        "description": "Thông báo xác nhận khi phiên đã được lưu.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Phiên Của Tôi"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Lỗi khi lưu phiên. Vui lòng thử lại.",
+        "description": "Thông báo lỗi khi lưu phiên không thành công."
+    },
+    "sessionDeleted": {
+        "message": "Phiên \"$1\" đã bị xóa.",
+        "description": "Thông báo xác nhận khi phiên đã bị xóa.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Phiên Của Tôi"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Lỗi khi xóa phiên. Vui lòng thử lại.",
+        "description": "Thông báo lỗi khi xóa phiên không thành công."
+    },
+    "errorActivatingTab": {
+        "message": "Lỗi khi kích hoạt tab: $1",
+        "description": "Thông báo lỗi khi kích hoạt tab không thành công.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "một số lỗi"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Thứ tự phiên đã được cập nhật",
+        "description": "Thông báo xác nhận khi thứ tự phiên được cập nhật."
+    },
+    "tabOrderUpdated": {
+        "message": "Thứ tự tab đã được cập nhật",
+        "description": "Thông báo xác nhận khi thứ tự tab được cập nhật."
+    },
+    "errorRenderingTab": {
+        "message": "Lỗi khi hiển thị tab:",
+        "description": "Thông báo lỗi khi hiển thị tab không thành công."
+    },
+    "drag": {
+        "message": "Kéo",
+        "description": "Văn bản thay thế cho hình ảnh tay cầm kéo."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Văn bản thay thế cho hình ảnh favicon."
+    },
+    "close": {
+        "message": "Đóng",
+        "description": "Văn bản thay thế cho hình ảnh nút đóng."
+    },
+    "openInNewWindow": {
+        "message": "Mở trong Cửa Sổ Mới",
+        "description": "Văn bản thay thế cho hình ảnh nút mở trong cửa sổ mới."
+    },
+    "delete": {
+        "message": "Xóa",
+        "description": "Văn bản thay thế cho hình ảnh nút xóa."
+    },
+    "testMessage": {
+        "message": "Tin nhắn kiểm tra",
+        "description": "Văn bản giữ chỗ để kiểm tra"
+    }
+}

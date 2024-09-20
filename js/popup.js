@@ -1,15 +1,31 @@
 document.addEventListener('DOMContentLoaded', function () {
+  document.title = chrome.i18n.getMessage('extensionName');
+  document.querySelector('.sessions-header').textContent = chrome.i18n.getMessage('savedSessions');
+  document.getElementById('session-name').setAttribute('placeholder', chrome.i18n.getMessage('nameCurrentSession'));
+  document.getElementById('save-session').textContent = chrome.i18n.getMessage('saveSession');
+  document.querySelector('.tabs-header').textContent = chrome.i18n.getMessage('openTabs');
+  document.getElementById('search').setAttribute('placeholder', chrome.i18n.getMessage('searchTabs'));
+  document.querySelector('.filter-column h3').textContent = chrome.i18n.getMessage('settings');
+  document.querySelector('label[for="filter-non-http"]').textContent = chrome.i18n.getMessage('hideLocalTabs');
+  document.querySelector('.footer p').textContent = chrome.i18n.getMessage('followMe');
+
   const searchInput = document.getElementById('search');
   const tabsList = document.getElementById('tabs-list');
   const sessionNameInput = document.getElementById('session-name');
   const saveSessionBtn = document.getElementById('save-session');
   const sessionsList = document.getElementById('sessions-list');
+  const tabsHeader = document.querySelector('.tabs-header');
+  const sessionsHeader = document.querySelector('.sessions-header');
   let db;
   const dbName = 'GooStackDB';
   const storeName = 'sessions';
 
   const filterNonHttpCheckbox = document.getElementById('filter-non-http');
   
+  // Set initial content for headers
+  tabsHeader.textContent = chrome.i18n.getMessage('openTabs');
+  sessionsHeader.textContent = chrome.i18n.getMessage('savedSessions');
+
   // Add event listener for the filter switch
   filterNonHttpCheckbox.addEventListener('change', function () {
     updateTabsList();
@@ -34,15 +50,16 @@ document.addEventListener('DOMContentLoaded', function () {
   // Render tabs in a vertical list with a title and a close button
   function renderTabs(tabs) {
     tabsList.innerHTML = '';
-    const tabsHeader = document.querySelector('.tabs-column h3');
-    tabsHeader.textContent = `Open Tabs (${tabs.length})`;
+    
+    const openTabsMessage = chrome.i18n.getMessage('openTabsCount', [tabs.length]);
+    tabsHeader.textContent = openTabsMessage;
     
     tabs.forEach((tab) => {
       try {
         const li = createTabListItem(tab);
         tabsList.appendChild(li);
       } catch (error) {
-        console.error('Error rendering tab:', tab, error);
+        console.error(chrome.i18n.getMessage('errorRenderingTab'), tab, error);
       }
     });
 
@@ -63,14 +80,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add drag handle
     const dragHandle = document.createElement('div');
     dragHandle.className = 'drag-handle';
-    dragHandle.innerHTML = '<img src="icons/ui/drag-handle.svg" alt="Drag">';
+    dragHandle.innerHTML = `<img src="icons/ui/drag-handle.svg" alt="${chrome.i18n.getMessage('drag')}">`;
     li.appendChild(dragHandle);
 
     // Favicon handling
     if (tab.favIconUrl) {
       const favicon = document.createElement('img');
       favicon.className = 'tab-favicon';
-      favicon.alt = 'Favicon';
+      favicon.alt = chrome.i18n.getMessage('favicon');
       if (tab.favIconUrl.startsWith('http')) {
         favicon.src = tab.favIconUrl;
       } else {
@@ -90,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
     titleSpan.addEventListener('click', function() {
       chrome.tabs.update(tab.id, {active: true}, function() {
         if (chrome.runtime.lastError) {
-          console.error('Error activating tab:', chrome.runtime.lastError);
+          console.error(chrome.i18n.getMessage('errorActivatingTab', [chrome.runtime.lastError.message]));
         } else {
           window.close(); // Close the popup after activating the tab
         }
@@ -111,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const closeBtn = document.createElement('button');
     closeBtn.className = 'close-btn';
-    closeBtn.innerHTML = '<img src="icons/ui/cross.svg" alt="Close">';
+    closeBtn.innerHTML = `<img src="icons/ui/cross.svg" alt="${chrome.i18n.getMessage('close')}">`;
     closeBtn.addEventListener('click', function (e) {
       e.stopPropagation();
       chrome.tabs.remove(tab.id, function () {
@@ -140,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
   saveSessionBtn.addEventListener('click', function () {
     const sessionName = sessionNameInput.value.trim();
     if (!sessionName) {
-      showToast('Please enter a session name.');
+      showToast(chrome.i18n.getMessage('pleaseEnterSessionName'));
       return;
     }
     chrome.tabs.query({ currentWindow: true }, function (tabs) {
@@ -152,13 +169,13 @@ document.addEventListener('DOMContentLoaded', function () {
       const request = store.put(sessionData);
 
       request.onsuccess = function () {
-        showToast(`Session "${sessionName}" saved!`);
+        showToast(chrome.i18n.getMessage('sessionSaved', [sessionName]));
         sessionNameInput.value = '';
         renderSessions();
       };
 
       request.onerror = function (event) {
-        showToast('Error saving session. Please try again.');
+        showToast(chrome.i18n.getMessage('errorSavingSession'));
       };
     });
   });
@@ -171,8 +188,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     request.onsuccess = function (event) {
       const sessions = event.target.result;
-      const sessionsHeader = document.querySelector('.sessions-column h3');
-      sessionsHeader.textContent = `${sessions.length} Saved Sessions`;
+      
+      const sessionsCountMessage = chrome.i18n.getMessage('savedSessionsCount', [sessions.length]);
+      sessionsHeader.textContent = sessionsCountMessage;
       
       // Get the stored session order
       chrome.storage.local.get('sessionOrder', function(result) {
@@ -194,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function () {
           // Add drag handle
           const dragHandle = document.createElement('div');
           dragHandle.className = 'drag-handle';
-          dragHandle.innerHTML = '<img src="icons/ui/drag-handle.svg" alt="Drag">';
+          dragHandle.innerHTML = `<img src="icons/ui/drag-handle.svg" alt="${chrome.i18n.getMessage('drag')}">`;
 
           const titleSpan = document.createElement('span');
           titleSpan.className = 'session-title';
@@ -207,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
           const newWindowBtn = document.createElement('button');
           newWindowBtn.className = 'new-window-btn';
-          newWindowBtn.innerHTML = '<img src="icons/ui/new-window.svg" alt="Open in New Window">';
+          newWindowBtn.innerHTML = `<img src="icons/ui/new-window.svg" alt="${chrome.i18n.getMessage('openInNewWindow')}">`;
           newWindowBtn.addEventListener('click', function (e) {
             e.stopPropagation();
             openSession(session, true);
@@ -215,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
           const deleteOption = document.createElement('button');
           deleteOption.className = 'close-btn';
-          deleteOption.innerHTML = '<img src="icons/ui/delete.svg" alt="Delete">';
+          deleteOption.innerHTML = `<img src="icons/ui/delete.svg" alt="${chrome.i18n.getMessage('delete')}">`;
           deleteOption.addEventListener('click', function (e) {
             e.stopPropagation();
             deleteSession(session.sessionName);
@@ -260,12 +278,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const request = store.delete(sessionName);
 
     request.onsuccess = function () {
-      showToast(`Session "${sessionName}" deleted.`);
+      showToast(chrome.i18n.getMessage('sessionDeleted', [sessionName]));
       renderSessions();
     };
 
     request.onerror = function (event) {
-      showToast('Error deleting session. Please try again.');
+      showToast(chrome.i18n.getMessage('errorDeletingSession'));
     };
   }
 
@@ -289,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (chrome.runtime.lastError) {
         console.error('Error saving session order:', chrome.runtime.lastError);
       } else {
-        showToast('Session order updated');
+        showToast(chrome.i18n.getMessage('sessionOrderUpdated'));
       }
     });
   }
@@ -302,38 +320,20 @@ document.addEventListener('DOMContentLoaded', function () {
       chrome.tabs.move(tabId, {index: index});
     });
 
-    showToast('Tab order updated');
+    showToast(chrome.i18n.getMessage('tabOrderUpdated'));
   }
 
   function updateTabsList() {
     chrome.tabs.query({}, function(tabs) {
-      const tabsList = document.getElementById('tabs-list');
-      tabsList.innerHTML = '';
-      let visibleTabsCount = 0;
-
-      tabs.forEach(function(tab) {
+      const filteredTabs = tabs.filter(function(tab) {
         // Check if we should filter out non-HTTP tabs
         if (filterNonHttpCheckbox.checked && !tab.url.startsWith('http')) {
-          return; // Skip this tab
+          return false; // Skip this tab
         }
-
-        visibleTabsCount++;
-
-        const li = createTabListItem(tab);
-        tabsList.appendChild(li);
+        return true;
       });
 
-      // Update the tabs count
-      document.getElementById('tabs-count').textContent = visibleTabsCount;
-
-      // Initialize Sortable for tabs list
-      new Sortable(tabsList, {
-        animation: 150,
-        handle: '.drag-handle',
-        onEnd: function (evt) {
-          updateTabsOrder();
-        }
-      });
+      renderTabs(filteredTabs);
     });
   }
 

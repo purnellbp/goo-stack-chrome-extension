@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "扩展的名称"
+    },
+    "extensionDescription": {
+        "message": "高效管理和组织你的标签页。",
+        "description": "扩展程序的描述"
+    },
+    "savedSessions": {
+        "message": "已保存的会话",
+        "description": "已保存的会话标题"
+    },
+    "nameCurrentSession": {
+        "message": "命名当前会话...",
+        "description": "会话输入框的占位符"
+    },
+    "saveSession": {
+        "message": "保存会话",
+        "description": "保存会话的按钮文本"
+    },
+    "openTabs": {
+        "message": "打开的标签页",
+        "description": "打开的标签页列的标题"
+    },
+    "searchTabs": {
+        "message": "搜索标签页...",
+        "description": "搜索标签页的占位符"
+    },
+    "settings": {
+        "message": "设置",
+        "description": "设置列的标题"
+    },
+    "hideLocalTabs": {
+        "message": "隐藏本地标签页",
+        "description": "隐藏本地标签页的标签"
+    },
+    "followMe": {
+        "message": "在此关注我",
+        "description": "社交媒体链接的文本"
+    },
+    "openTabsCount": {
+        "message": "打开的标签页 ($1)",
+        "description": "打开的标签页标题，带有计数。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 已保存的会话",
+        "description": "已保存的会话标题，带有计数。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "请输入会话名称。",
+        "description": "会话名称为空时的错误消息。"
+    },
+    "sessionSaved": {
+        "message": "会话 \"$1\" 已保存！",
+        "description": "保存会话时的确认消息。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "我的会话"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "保存会话时出错，请重试。",
+        "description": "保存会话失败时的错误消息。"
+    },
+    "sessionDeleted": {
+        "message": "会话 \"$1\" 已删除。",
+        "description": "删除会话时的确认消息。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "我的会话"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "删除会话时出错，请重试。",
+        "description": "删除会话失败时的错误消息。"
+    },
+    "errorActivatingTab": {
+        "message": "激活标签页时出错: $1",
+        "description": "激活标签页失败时的错误消息。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "某些错误"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "会话顺序已更新",
+        "description": "更新会话顺序时的确认消息"
+    },
+    "tabOrderUpdated": {
+        "message": "标签页顺序已更新",
+        "description": "更新标签页顺序时的确认消息"
+    },
+    "errorRenderingTab": {
+        "message": "渲染标签页时出错:",
+        "description": "渲染标签页失败时的错误消息"
+    },
+    "drag": {
+        "message": "拖动",
+        "description": "拖动手柄图像的替代文本"
+    },
+    "favicon": {
+        "message": "网站图标",
+        "description": "网站图标图像的替代文本"
+    },
+    "close": {
+        "message": "关闭",
+        "description": "关闭按钮的替代文本"
+    },
+    "openInNewWindow": {
+        "message": "在新窗口中打开",
+        "description": "在新窗口中打开按钮的替代文本"
+    },
+    "delete": {
+        "message": "删除",
+        "description": "删除按钮的替代文本"
+    },
+    "testMessage": {
+        "message": "测试消息",
+        "description": "测试占位符"
+    }
+}

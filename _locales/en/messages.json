@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Efficiently manage and organize your tabs.",
+        "description": "Description for the extension in the manifest"
+    },
+    "savedSessions": {
+        "message": "Saved Sessions",
+        "description": "The heading for saved sessions"
+    },
+    "nameCurrentSession": {
+        "message": "Name current session...",
+        "description": "Placeholder text for the session input"
+    },
+    "saveSession": {
+        "message": "Save Session",
+        "description": "Button text for saving a session"
+    },
+    "openTabs": {
+        "message": "Open Tabs",
+        "description": "Heading for the open tabs column"
+    },
+    "searchTabs": {
+        "message": "Search tabs...",
+        "description": "Placeholder text for searching tabs"
+    },
+    "settings": {
+        "message": "Settings",
+        "description": "Heading for the settings column"
+    },
+    "hideLocalTabs": {
+        "message": "Hide local tabs",
+        "description": "Label for hiding local tabs"
+    },
+    "followMe": {
+        "message": "Follow me on",
+        "description": "Text for social media link"
+    },
+    "openTabsCount": {
+        "message": "Open Tabs ($1)",
+        "description": "Open Tabs heading with count.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Saved Sessions",
+        "description": "Saved Sessions heading with count.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Please enter a session name.",
+        "description": "Error message when session name is empty."
+    },
+    "sessionSaved": {
+        "message": "Session \"$1\" saved!",
+        "description": "Confirmation message when session is saved.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "My Session"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Error saving session. Please try again.",
+        "description": "Error message when saving session fails."
+    },
+    "sessionDeleted": {
+        "message": "Session \"$1\" deleted.",
+        "description": "Confirmation message when session is deleted.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "My Session"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Error deleting session. Please try again.",
+        "description": "Error message when deleting session fails."
+    },
+    "errorActivatingTab": {
+        "message": "Error activating tab: $1",
+        "description": "Error message when activating tab fails.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "some error"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Session order updated",
+        "description": "Confirmation message when session order is updated."
+    },
+    "tabOrderUpdated": {
+        "message": "Tab order updated",
+        "description": "Confirmation message when tab order is updated."
+    },
+    "errorRenderingTab": {
+        "message": "Error rendering tab:",
+        "description": "Error message when rendering a tab fails."
+    },
+    "drag": {
+        "message": "Drag",
+        "description": "Alt text for drag handle image."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Alt text for favicon image."
+    },
+    "close": {
+        "message": "Close",
+        "description": "Alt text for close button image."
+    },
+    "openInNewWindow": {
+        "message": "Open in New Window",
+        "description": "Alt text for open in new window button image."
+    },
+    "delete": {
+        "message": "Delete",
+        "description": "Alt text for delete button image."
+    },
+    "testMessage": {
+        "message": "Test message",
+        "description": "Test placeholder"
+    }
+}

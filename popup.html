@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Goo Stack</title>
+  <title>__MSG_extensionName__</title>
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,32 +12,31 @@
     <div class="grid">
       <!-- Saved Sessions Column -->
       <div class="sessions-column">
-        <h3>Saved Sessions</h3>
+        <h3 class="sessions-header">__MSG_savedSessions__</h3>
         <ul id="sessions-list" class="list"></ul>
-        <input type="text" id="session-name" class="input-block" placeholder="Name current session...">
-        <button id="save-session" class="button">Save Session</button>
+        <input type="text" id="session-name" class="input-block" placeholder="__MSG_nameCurrentSession__">
+        <button id="save-session" class="button">__MSG_saveSession__</button>
       </div>
       
       <!-- Open Tabs Column -->
-      <div class="tabs-column ">
-        <h3>Open Tabs (<span id="tabs-count">0</span>)</h3>
-        <input type="text" id="search" class="input-block" placeholder="Search tabs...">
+      <div class="tabs-column">
+        <h3 class="tabs-header">__MSG_openTabs__</h3>
+        <input type="text" id="search" class="input-block" placeholder="__MSG_searchTabs__">
         <ul id="tabs-list" class="list"></ul>
       </div>
 
-      <!-- New Filter Column -->
+      <!-- Settings Column -->
       <div class="filter-column">
-        <h3>Settings</h3>
+        <h3>__MSG_settings__</h3>
         <div class="filter-option">
           <label class="switch">
             <input type="checkbox" id="filter-non-http">
             <span class="slider round"></span>
           </label>
-          <label for="filter-non-http">Hide local tabs</label>
+          <label for="filter-non-http">__MSG_hideLocalTabs__</label>
         </div>
         <div class="footer">
-          
-          <p>Follow me on </p>
+          <p>__MSG_followMe__</p>
           <a href="https://x.com/Goo_Gurt_" target="_blank"> 
             <img src="icons/ui/x.svg" alt="X" class="icon-link">
           </a>

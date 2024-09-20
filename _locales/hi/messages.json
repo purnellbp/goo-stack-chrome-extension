@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "एक्सटेंशन का नाम"
+    },
+    "extensionDescription": {
+        "message": "अपने टैब्स को कुशलता से प्रबंधित और व्यवस्थित करें।",
+        "description": "मेनिफेस्ट में एक्सटेंशन का विवरण"
+    },
+    "savedSessions": {
+        "message": "सहेजे गए सत्र",
+        "description": "सहेजे गए सत्रों का शीर्षक"
+    },
+    "nameCurrentSession": {
+        "message": "वर्तमान सत्र का नाम दर्ज करें...",
+        "description": "सत्र इनपुट फ़ील्ड का प्लेसहोल्डर टेक्स्ट"
+    },
+    "saveSession": {
+        "message": "सत्र सहेजें",
+        "description": "सत्र को सहेजने के लिए बटन का टेक्स्ट"
+    },
+    "openTabs": {
+        "message": "खुले हुए टैब्स",
+        "description": "खुले हुए टैब्स के कॉलम का शीर्षक"
+    },
+    "searchTabs": {
+        "message": "टैब्स खोजें...",
+        "description": "टैब्स को खोजने के लिए प्लेसहोल्डर टेक्स्ट"
+    },
+    "settings": {
+        "message": "सेटिंग्स",
+        "description": "सेटिंग्स कॉलम का शीर्षक"
+    },
+    "hideLocalTabs": {
+        "message": "स्थानीय टैब्स छिपाएं",
+        "description": "स्थानीय टैब्स को छिपाने के लिए लेबल"
+    },
+    "followMe": {
+        "message": "मुझे फॉलो करें",
+        "description": "सोशल मीडिया लिंक के लिए टेक्स्ट"
+    },
+    "openTabsCount": {
+        "message": "खुले हुए टैब्स ($1)",
+        "description": "टैब्स की गिनती के साथ खुले हुए टैब्स का शीर्षक।",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 सहेजे गए सत्र",
+        "description": "सत्रों की गिनती के साथ सहेजे गए सत्रों का शीर्षक।",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "कृपया सत्र का नाम दर्ज करें।",
+        "description": "सत्र का नाम खाली होने पर त्रुटि संदेश।"
+    },
+    "sessionSaved": {
+        "message": "सत्र \"$1\" सहेजा गया!",
+        "description": "सत्र सहेजने पर पुष्टि संदेश।",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "मेरा सत्र"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "सत्र सहेजने में त्रुटि। कृपया पुनः प्रयास करें।",
+        "description": "सत्र सहेजने में विफल होने पर त्रुटि संदेश।"
+    },
+    "sessionDeleted": {
+        "message": "सत्र \"$1\" हटा दिया गया।",
+        "description": "सत्र को हटाने पर पुष्टि संदेश।",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "मेरा सत्र"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "सत्र को हटाने में त्रुटि। कृपया पुनः प्रयास करें।",
+        "description": "सत्र हटाने में विफल होने पर त्रुटि संदेश।"
+    },
+    "errorActivatingTab": {
+        "message": "टैब सक्रिय करने में त्रुटि: $1",
+        "description": "टैब सक्रिय करने में विफल होने पर त्रुटि संदेश।",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "कुछ त्रुटि"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "सत्रों का क्रम अपडेट किया गया",
+        "description": "सत्रों का क्रम अपडेट होने पर पुष्टि संदेश"
+    },
+    "tabOrderUpdated": {
+        "message": "टैब्स का क्रम अपडेट किया गया",
+        "description": "टैब्स का क्रम अपडेट होने पर पुष्टि संदेश"
+    },
+    "errorRenderingTab": {
+        "message": "टैब रेंडरिंग में त्रुटि:",
+        "description": "टैब रेंडर करने में विफल होने पर त्रुटि संदेश"
+    },
+    "drag": {
+        "message": "खींचें",
+        "description": "ड्रैग हैंडल इमेज का वैकल्पिक टेक्स्ट"
+    },
+    "favicon": {
+        "message": "फ़ेविकॉन",
+        "description": "फ़ेविकॉन इमेज का वैकल्पिक टेक्स्ट"
+    },
+    "close": {
+        "message": "बंद करें",
+        "description": "बंद करने के बटन का वैकल्पिक टेक्स्ट"
+    },
+    "openInNewWindow": {
+        "message": "नई विंडो में खोलें",
+        "description": "नई विंडो में खोलने के बटन का वैकल्पिक टेक्स्ट"
+    },
+    "delete": {
+        "message": "हटाएं",
+        "description": "हटाने के बटन का वैकल्पिक टेक्स्ट"
+    },
+    "testMessage": {
+        "message": "परीक्षण संदेश",
+        "description": "परीक्षण के लिए प्लेसहोल्डर"
+    }
+}

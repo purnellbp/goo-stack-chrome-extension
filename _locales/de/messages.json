@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Der Name der Erweiterung"
+    },
+    "extensionDescription": {
+        "message": "Verwalten und organisieren Sie Ihre Tabs effizient.",
+        "description": "Beschreibung der Erweiterung im Manifest"
+    },
+    "savedSessions": {
+        "message": "Gespeicherte Sitzungen",
+        "description": "Die Überschrift für gespeicherte Sitzungen"
+    },
+    "nameCurrentSession": {
+        "message": "Aktuelle Sitzung benennen...",
+        "description": "Platzhaltertext für die Sitzungseingabe"
+    },
+    "saveSession": {
+        "message": "Sitzung speichern",
+        "description": "Schaltflächentext zum Speichern einer Sitzung"
+    },
+    "openTabs": {
+        "message": "Offene Tabs",
+        "description": "Überschrift für die Spalte der offenen Tabs"
+    },
+    "searchTabs": {
+        "message": "Tabs durchsuchen...",
+        "description": "Platzhaltertext für die Suche nach Tabs"
+    },
+    "settings": {
+        "message": "Einstellungen",
+        "description": "Überschrift für die Einstellungsspalte"
+    },
+    "hideLocalTabs": {
+        "message": "Lokale Tabs ausblenden",
+        "description": "Beschriftung zum Ausblenden lokaler Tabs"
+    },
+    "followMe": {
+        "message": "Folgen Sie mir auf",
+        "description": "Text für Social-Media-Link"
+    },
+    "openTabsCount": {
+        "message": "Offene Tabs ($1)",
+        "description": "Überschrift für offene Tabs mit Anzahl.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Gespeicherte Sitzungen",
+        "description": "Überschrift für gespeicherte Sitzungen mit Anzahl.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Bitte geben Sie einen Sitzungsnamen ein.",
+        "description": "Fehlermeldung, wenn der Sitzungsname leer ist."
+    },
+    "sessionSaved": {
+        "message": "Sitzung \"$1\" gespeichert!",
+        "description": "Bestätigungsmeldung, wenn eine Sitzung gespeichert wird.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Meine Sitzung"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Fehler beim Speichern der Sitzung. Bitte versuchen Sie es erneut.",
+        "description": "Fehlermeldung, wenn das Speichern der Sitzung fehlschlägt."
+    },
+    "sessionDeleted": {
+        "message": "Sitzung \"$1\" gelöscht.",
+        "description": "Bestätigungsmeldung, wenn eine Sitzung gelöscht wird.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Meine Sitzung"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Fehler beim Löschen der Sitzung. Bitte versuchen Sie es erneut.",
+        "description": "Fehlermeldung, wenn das Löschen der Sitzung fehlschlägt."
+    },
+    "errorActivatingTab": {
+        "message": "Fehler beim Aktivieren des Tabs: $1",
+        "description": "Fehlermeldung, wenn die Aktivierung eines Tabs fehlschlägt.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "ein Fehler"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Sitzungsreihenfolge aktualisiert",
+        "description": "Bestätigungsmeldung, wenn die Sitzungsreihenfolge aktualisiert wird."
+    },
+    "tabOrderUpdated": {
+        "message": "Tab-Reihenfolge aktualisiert",
+        "description": "Bestätigungsmeldung, wenn die Tab-Reihenfolge aktualisiert wird."
+    },
+    "errorRenderingTab": {
+        "message": "Fehler beim Rendern des Tabs:",
+        "description": "Fehlermeldung, wenn das Rendern eines Tabs fehlschlägt."
+    },
+    "drag": {
+        "message": "Ziehen",
+        "description": "Alternativer Text für das Ziehgriff-Bild."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Alternativer Text für das Favicon-Bild."
+    },
+    "close": {
+        "message": "Schließen",
+        "description": "Alternativer Text für das Schließen-Button-Bild."
+    },
+    "openInNewWindow": {
+        "message": "In neuem Fenster öffnen",
+        "description": "Alternativer Text für das Bild des Buttons 'In neuem Fenster öffnen'."
+    },
+    "delete": {
+        "message": "Löschen",
+        "description": "Alternativer Text für das Löschen-Button-Bild."
+    },
+    "testMessage": {
+        "message": "Testnachricht",
+        "description": "Test-Platzhalter"
+    }
+}

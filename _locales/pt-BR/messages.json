@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "O nome da extensão"
+    },
+    "extensionDescription": {
+        "message": "Gerencie e organize suas abas de forma eficiente.",
+        "description": "Descrição da extensão no manifesto"
+    },
+    "savedSessions": {
+        "message": "Sessões Salvas",
+        "description": "O título para sessões salvas"
+    },
+    "nameCurrentSession": {
+        "message": "Nomear sessão atual...",
+        "description": "Texto de placeholder para o input de sessão"
+    },
+    "saveSession": {
+        "message": "Salvar Sessão",
+        "description": "Texto do botão para salvar uma sessão"
+    },
+    "openTabs": {
+        "message": "Abas Abertas",
+        "description": "Título para a coluna de abas abertas"
+    },
+    "searchTabs": {
+        "message": "Pesquisar abas...",
+        "description": "Texto de placeholder para pesquisar abas"
+    },
+    "settings": {
+        "message": "Configurações",
+        "description": "Título para a coluna de configurações"
+    },
+    "hideLocalTabs": {
+        "message": "Ocultar abas locais",
+        "description": "Rótulo para ocultar abas locais"
+    },
+    "followMe": {
+        "message": "Siga-me no",
+        "description": "Texto para link de mídia social"
+    },
+    "openTabsCount": {
+        "message": "Abas Abertas ($1)",
+        "description": "Título de Abas Abertas com contagem.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Sessões Salvas",
+        "description": "Título de Sessões Salvas com contagem.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Por favor, insira um nome para a sessão.",
+        "description": "Mensagem de erro quando o nome da sessão está vazio."
+    },
+    "sessionSaved": {
+        "message": "Sessão \"$1\" salva!",
+        "description": "Mensagem de confirmação quando a sessão é salva.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Minha Sessão"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Erro ao salvar a sessão. Por favor, tente novamente.",
+        "description": "Mensagem de erro quando falha ao salvar a sessão."
+    },
+    "sessionDeleted": {
+        "message": "Sessão \"$1\" excluída.",
+        "description": "Mensagem de confirmação quando a sessão é excluída.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Minha Sessão"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Erro ao excluir a sessão. Por favor, tente novamente.",
+        "description": "Mensagem de erro quando falha ao excluir a sessão."
+    },
+    "errorActivatingTab": {
+        "message": "Erro ao ativar a aba: $1",
+        "description": "Mensagem de erro quando falha ao ativar a aba.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "algum erro"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Ordem das sessões atualizada",
+        "description": "Mensagem de confirmação quando a ordem das sessões é atualizada."
+    },
+    "tabOrderUpdated": {
+        "message": "Ordem das abas atualizada",
+        "description": "Mensagem de confirmação quando a ordem das abas é atualizada."
+    },
+    "errorRenderingTab": {
+        "message": "Erro ao renderizar a aba:",
+        "description": "Mensagem de erro quando falha ao renderizar uma aba."
+    },
+    "drag": {
+        "message": "Arrastar",
+        "description": "Texto alternativo para a imagem da alça de arrasto."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Texto alternativo para a imagem do favicon."
+    },
+    "close": {
+        "message": "Fechar",
+        "description": "Texto alternativo para a imagem do botão de fechar."
+    },
+    "openInNewWindow": {
+        "message": "Abrir em Nova Janela",
+        "description": "Texto alternativo para a imagem do botão de abrir em nova janela."
+    },
+    "delete": {
+        "message": "Excluir",
+        "description": "Texto alternativo para a imagem do botão de excluir."
+    },
+    "testMessage": {
+        "message": "Mensagem de teste",
+        "description": "Placeholder de teste"
+    }
+}

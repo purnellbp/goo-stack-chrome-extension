@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "확장 프로그램의 이름"
+    },
+    "extensionDescription": {
+        "message": "효율적으로 탭을 관리하고 정리하세요.",
+        "description": "확장 프로그램에 대한 설명"
+    },
+    "savedSessions": {
+        "message": "저장된 세션",
+        "description": "저장된 세션에 대한 제목"
+    },
+    "nameCurrentSession": {
+        "message": "현재 세션 이름 지정...",
+        "description": "세션 입력 필드의 자리 표시자"
+    },
+    "saveSession": {
+        "message": "세션 저장",
+        "description": "세션을 저장하는 버튼의 텍스트"
+    },
+    "openTabs": {
+        "message": "열린 탭",
+        "description": "열린 탭 열의 제목"
+    },
+    "searchTabs": {
+        "message": "탭 검색...",
+        "description": "탭 검색을 위한 자리 표시자 텍스트"
+    },
+    "settings": {
+        "message": "설정",
+        "description": "설정 열의 제목"
+    },
+    "hideLocalTabs": {
+        "message": "로컬 탭 숨기기",
+        "description": "로컬 탭을 숨기는 라벨"
+    },
+    "followMe": {
+        "message": "팔로우하기",
+        "description": "소셜 미디어 링크에 대한 텍스트"
+    },
+    "openTabsCount": {
+        "message": "열린 탭 ($1)",
+        "description": "열린 탭에 대한 제목과 탭 수.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 저장된 세션",
+        "description": "저장된 세션의 제목과 세션 수.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "세션 이름을 입력하세요.",
+        "description": "세션 이름이 비어 있을 때의 오류 메시지."
+    },
+    "sessionSaved": {
+        "message": "세션 \"$1\" 저장 완료!",
+        "description": "세션 저장 시 확인 메시지.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "내 세션"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "세션 저장 오류. 다시 시도하세요.",
+        "description": "세션 저장 실패 시 오류 메시지."
+    },
+    "sessionDeleted": {
+        "message": "세션 \"$1\" 삭제됨.",
+        "description": "세션 삭제 시 확인 메시지.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "내 세션"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "세션 삭제 오류. 다시 시도하세요.",
+        "description": "세션 삭제 실패 시 오류 메시지."
+    },
+    "errorActivatingTab": {
+        "message": "탭 활성화 오류: $1",
+        "description": "탭 활성화 실패 시 오류 메시지.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "어떤 오류"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "세션 순서가 업데이트되었습니다.",
+        "description": "세션 순서가 업데이트되었을 때의 확인 메시지"
+    },
+    "tabOrderUpdated": {
+        "message": "탭 순서가 업데이트되었습니다.",
+        "description": "탭 순서가 업데이트되었을 때의 확인 메시지"
+    },
+    "errorRenderingTab": {
+        "message": "탭 렌더링 오류:",
+        "description": "탭 렌더링 실패 시 오류 메시지"
+    },
+    "drag": {
+        "message": "드래그",
+        "description": "드래그 핸들 이미지에 대한 대체 텍스트"
+    },
+    "favicon": {
+        "message": "파비콘",
+        "description": "파비콘 이미지에 대한 대체 텍스트"
+    },
+    "close": {
+        "message": "닫기",
+        "description": "닫기 버튼의 대체 텍스트"
+    },
+    "openInNewWindow": {
+        "message": "새 창에서 열기",
+        "description": "새 창에서 열기 버튼의 대체 텍스트"
+    },
+    "delete": {
+        "message": "삭제",
+        "description": "삭제 버튼의 대체 텍스트"
+    },
+    "testMessage": {
+        "message": "테스트 메시지",
+        "description": "테스트용 자리 표시자"
+    }
+}

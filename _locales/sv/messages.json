@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Namnet på tillägget"
+    },
+    "extensionDescription": {
+        "message": "Hantera och organisera dina flikar effektivt.",
+        "description": "Beskrivning för tillägget i manifestet"
+    },
+    "savedSessions": {
+        "message": "Sparade Sessioner",
+        "description": "Rubrik för sparade sessioner"
+    },
+    "nameCurrentSession": {
+        "message": "Namnge nuvarande session...",
+        "description": "Platsinnehavartekst för sessionens inmatning"
+    },
+    "saveSession": {
+        "message": "Spara Session",
+        "description": "Knapptitel för att spara en session"
+    },
+    "openTabs": {
+        "message": "Öppna Flikar",
+        "description": "Rubrik för kolumnen med öppna flikar"
+    },
+    "searchTabs": {
+        "message": "Sök flikar...",
+        "description": "Platsinnehavartekst för att söka flikar"
+    },
+    "settings": {
+        "message": "Inställningar",
+        "description": "Rubrik för inställningskolumnen"
+    },
+    "hideLocalTabs": {
+        "message": "Dölj lokala flikar",
+        "description": "Label för att dölja lokala flikar"
+    },
+    "followMe": {
+        "message": "Följ mig på",
+        "description": "Text för länk till sociala medier"
+    },
+    "openTabsCount": {
+        "message": "Öppna Flikar ($1)",
+        "description": "Rubrik för öppna flikar med antal.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Sparade Sessioner",
+        "description": "Rubrik för sparade sessioner med antal.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Vänligen ange ett sessionsnamn.",
+        "description": "Felmeddelande när sessionsnamnet är tomt."
+    },
+    "sessionSaved": {
+        "message": "Session \"$1\" sparad!",
+        "description": "Bekräftelsemeddelande när sessionen sparas.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Min Session"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Fel vid sparande av session. Försök igen.",
+        "description": "Felmeddelande när sessionen inte kan sparas."
+    },
+    "sessionDeleted": {
+        "message": "Session \"$1\" raderad.",
+        "description": "Bekräftelsemeddelande när sessionen raderas.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Min Session"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Fel vid radering av session. Försök igen.",
+        "description": "Felmeddelande när raderingen av sessionen misslyckas."
+    },
+    "errorActivatingTab": {
+        "message": "Fel vid aktivering av flik: $1",
+        "description": "Felmeddelande när aktivering av fliken misslyckas.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "något fel"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Sessionsordningen uppdaterad",
+        "description": "Bekräftelsemeddelande när sessionsordningen uppdateras."
+    },
+    "tabOrderUpdated": {
+        "message": "Flikordningen uppdaterad",
+        "description": "Bekräftelsemeddelande när flikordningen uppdateras."
+    },
+    "errorRenderingTab": {
+        "message": "Fel vid rendering av flik:",
+        "description": "Felmeddelande när rendering av en flik misslyckas."
+    },
+    "drag": {
+        "message": "Dra",
+        "description": "Alternativ text för bilden av draghandtaget."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Alternativ text för favicon-bilden."
+    },
+    "close": {
+        "message": "Stäng",
+        "description": "Alternativ text för stängningsknappens bild."
+    },
+    "openInNewWindow": {
+        "message": "Öppna i Nytt Fönster",
+        "description": "Alternativ text för knappen för att öppna i nytt fönster."
+    },
+    "delete": {
+        "message": "Ta Bort",
+        "description": "Alternativ text för borttagningsknappens bild."
+    },
+    "testMessage": {
+        "message": "Testmeddelande",
+        "description": "Platsinnehavare för test"
+    }
+}

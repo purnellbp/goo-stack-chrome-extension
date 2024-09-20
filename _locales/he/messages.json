@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "שם ההרחבה"
+    },
+    "extensionDescription": {
+        "message": "נהל וארגן את הכרטיסיות שלך ביעילות.",
+        "description": "תיאור עבור ההרחבה במניפסט"
+    },
+    "savedSessions": {
+        "message": "סשנים שמורים",
+        "description": "כותרת עבור סשנים שמורים"
+    },
+    "nameCurrentSession": {
+        "message": "שמות את הסשן הנוכחי...",
+        "description": "טקסט מחזיק מקום עבור הזנת שם סשן"
+    },
+    "saveSession": {
+        "message": "שמור סשן",
+        "description": "טקסט כפתור לשמירת סשן"
+    },
+    "openTabs": {
+        "message": "כרטיסיות פתוחות",
+        "description": "כותרת עבור עמודת הכרטיסיות הפתוחות"
+    },
+    "searchTabs": {
+        "message": "חפש כרטיסיות...",
+        "description": "טקסט מחזיק מקום לחיפוש כרטיסיות"
+    },
+    "settings": {
+        "message": "הגדרות",
+        "description": "כותרת עבור עמודת ההגדרות"
+    },
+    "hideLocalTabs": {
+        "message": "הסתר כרטיסיות מקומיות",
+        "description": "תווית להסתרת כרטיסיות מקומיות"
+    },
+    "followMe": {
+        "message": "עקוב אחריי ב",
+        "description": "טקסט עבור קישור לרשתות חברתיות"
+    },
+    "openTabsCount": {
+        "message": "כרטיסיות פתוחות ($1)",
+        "description": "כותרת לכרטיסיות פתוחות עם מספר.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 סשנים שמורים",
+        "description": "כותרת לסשנים שמורים עם מספר.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "אנא הזן שם סשן.",
+        "description": "הודעת שגיאה כאשר שם הסשן ריק."
+    },
+    "sessionSaved": {
+        "message": "הסשן \"$1\" נשמר!",
+        "description": "הודעת אישור כאשר הסשן נשמר.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "הסשן שלי"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "שגיאה בשמירת הסשן. אנא נסה שוב.",
+        "description": "הודעת שגיאה כאשר שמירת הסשן נכשלה."
+    },
+    "sessionDeleted": {
+        "message": "הסשן \"$1\" נמחק.",
+        "description": "הודעת אישור כאשר הסשן נמחק.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "הסשן שלי"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "שגיאה במחיקת הסשן. אנא נסה שוב.",
+        "description": "הודעת שגיאה כאשר מחיקת הסשן נכשלה."
+    },
+    "errorActivatingTab": {
+        "message": "שגיאה בהפעלת הכרטיסיה: $1",
+        "description": "הודעת שגיאה כאשר הפעלת הכרטיסיה נכשלה.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "שגיאה כלשהי"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "סדר הסשנים עודכן",
+        "description": "הודעת אישור כאשר סדר הסשנים עודכן."
+    },
+    "tabOrderUpdated": {
+        "message": "סדר הכרטיסיות עודכן",
+        "description": "הודעת אישור כאשר סדר הכרטיסיות עודכן."
+    },
+    "errorRenderingTab": {
+        "message": "שגיאה בהצגת הכרטיסיה:",
+        "description": "הודעת שגיאה כאשר הצגת כרטיסיה נכשלה."
+    },
+    "drag": {
+        "message": "גרור",
+        "description": "טקסט חלופי עבור התמונה של ידית הגרירה."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "טקסט חלופי עבור התמונה של favicon."
+    },
+    "close": {
+        "message": "סגור",
+        "description": "טקסט חלופי עבור התמונה של כפתור הסגירה."
+    },
+    "openInNewWindow": {
+        "message": "פתח בחלון חדש",
+        "description": "טקסט חלופי עבור התמונה של כפתור פתיחה בחלון חדש."
+    },
+    "delete": {
+        "message": "מחק",
+        "description": "טקסט חלופי עבור התמונה של כפתור המחיקה."
+    },
+    "testMessage": {
+        "message": "הודעת בדיקה",
+        "description": "מחזיק מקום לבדיקה"
+    }
+}

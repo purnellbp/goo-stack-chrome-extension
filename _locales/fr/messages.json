@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Le nom de l'extension"
+    },
+    "extensionDescription": {
+        "message": "Gérez et organisez efficacement vos onglets.",
+        "description": "Description de l'extension dans le manifeste"
+    },
+    "savedSessions": {
+        "message": "Sessions Enregistrées",
+        "description": "Le titre pour les sessions enregistrées"
+    },
+    "nameCurrentSession": {
+        "message": "Nommer la session actuelle...",
+        "description": "Texte d'espace réservé pour l'entrée de session"
+    },
+    "saveSession": {
+        "message": "Enregistrer la Session",
+        "description": "Texte du bouton pour enregistrer une session"
+    },
+    "openTabs": {
+        "message": "Onglets Ouverts",
+        "description": "Titre pour la colonne des onglets ouverts"
+    },
+    "searchTabs": {
+        "message": "Rechercher des onglets...",
+        "description": "Texte d'espace réservé pour la recherche d'onglets"
+    },
+    "settings": {
+        "message": "Paramètres",
+        "description": "Titre pour la colonne des paramètres"
+    },
+    "hideLocalTabs": {
+        "message": "Masquer les onglets locaux",
+        "description": "Étiquette pour masquer les onglets locaux"
+    },
+    "followMe": {
+        "message": "Suivez-moi sur",
+        "description": "Texte pour le lien des médias sociaux"
+    },
+    "openTabsCount": {
+        "message": "Onglets Ouverts ($1)",
+        "description": "Titre des Onglets Ouverts avec le nombre.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Sessions Enregistrées",
+        "description": "Titre des Sessions Enregistrées avec le nombre.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Veuillez entrer un nom de session.",
+        "description": "Message d'erreur lorsque le nom de la session est vide."
+    },
+    "sessionSaved": {
+        "message": "Session \"$1\" enregistrée !",
+        "description": "Message de confirmation lorsque la session est enregistrée.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Ma Session"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Erreur lors de l'enregistrement de la session. Veuillez réessayer.",
+        "description": "Message d'erreur lorsque l'enregistrement de la session échoue."
+    },
+    "sessionDeleted": {
+        "message": "Session \"$1\" supprimée.",
+        "description": "Message de confirmation lorsque la session est supprimée.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Ma Session"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Erreur lors de la suppression de la session. Veuillez réessayer.",
+        "description": "Message d'erreur lorsque la suppression de la session échoue."
+    },
+    "errorActivatingTab": {
+        "message": "Erreur lors de l'activation de l'onglet : $1",
+        "description": "Message d'erreur lorsque l'activation de l'onglet échoue.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "une erreur"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Ordre des sessions mis à jour",
+        "description": "Message de confirmation lorsque l'ordre des sessions est mis à jour."
+    },
+    "tabOrderUpdated": {
+        "message": "Ordre des onglets mis à jour",
+        "description": "Message de confirmation lorsque l'ordre des onglets est mis à jour."
+    },
+    "errorRenderingTab": {
+        "message": "Erreur lors du rendu de l'onglet :",
+        "description": "Message d'erreur lorsque le rendu d'un onglet échoue."
+    },
+    "drag": {
+        "message": "Glisser",
+        "description": "Texte alternatif pour l'image de la poignée de glissement."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Texte alternatif pour l'image du favicon."
+    },
+    "close": {
+        "message": "Fermer",
+        "description": "Texte alternatif pour l'image du bouton de fermeture."
+    },
+    "openInNewWindow": {
+        "message": "Ouvrir dans une Nouvelle Fenêtre",
+        "description": "Texte alternatif pour l'image du bouton d'ouverture dans une nouvelle fenêtre."
+    },
+    "delete": {
+        "message": "Supprimer",
+        "description": "Texte alternatif pour l'image du bouton de suppression."
+    },
+    "testMessage": {
+        "message": "Message de test",
+        "description": "Espace réservé de test"
+    }
+}

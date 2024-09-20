@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "اسم الامتداد"
+    },
+    "extensionDescription": {
+        "message": "إدارة وتنظيم علامات التبويب الخاصة بك بكفاءة.",
+        "description": "وصف الامتداد في الملف"
+    },
+    "savedSessions": {
+        "message": "الجلسات المحفوظة",
+        "description": "العنوان للجلسات المحفوظة"
+    },
+    "nameCurrentSession": {
+        "message": "أدخل اسم الجلسة الحالية...",
+        "description": "نص العنصر النائب لحقل إدخال الجلسة"
+    },
+    "saveSession": {
+        "message": "حفظ الجلسة",
+        "description": "نص الزر لحفظ الجلسة"
+    },
+    "openTabs": {
+        "message": "علامات التبويب المفتوحة",
+        "description": "العنوان لعمود علامات التبويب المفتوحة"
+    },
+    "searchTabs": {
+        "message": "بحث في علامات التبويب...",
+        "description": "نص العنصر النائب للبحث في علامات التبويب"
+    },
+    "settings": {
+        "message": "الإعدادات",
+        "description": "العنوان لعمود الإعدادات"
+    },
+    "hideLocalTabs": {
+        "message": "إخفاء علامات التبويب المحلية",
+        "description": "تصنيف لإخفاء علامات التبويب المحلية"
+    },
+    "followMe": {
+        "message": "تابعني على",
+        "description": "النص لرابط وسائل التواصل الاجتماعي"
+    },
+    "openTabsCount": {
+        "message": "علامات التبويب المفتوحة ($1)",
+        "description": "العنوان لعلامات التبويب المفتوحة مع العدد.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 جلسات محفوظة",
+        "description": "العنوان للجلسات المحفوظة مع العدد.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "يرجى إدخال اسم الجلسة.",
+        "description": "رسالة الخطأ عند عدم إدخال اسم الجلسة."
+    },
+    "sessionSaved": {
+        "message": "تم حفظ الجلسة \"$1\"!",
+        "description": "رسالة تأكيد عند حفظ الجلسة.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "جلستي"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "خطأ في حفظ الجلسة. حاول مرة أخرى.",
+        "description": "رسالة الخطأ عند فشل حفظ الجلسة."
+    },
+    "sessionDeleted": {
+        "message": "تم حذف الجلسة \"$1\".",
+        "description": "رسالة تأكيد عند حذف الجلسة.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "جلستي"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "خطأ في حذف الجلسة. حاول مرة أخرى.",
+        "description": "رسالة الخطأ عند فشل حذف الجلسة."
+    },
+    "errorActivatingTab": {
+        "message": "خطأ في تفعيل علامة التبويب: $1",
+        "description": "رسالة الخطأ عند فشل تفعيل علامة التبويب.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "بعض الأخطاء"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "تم تحديث ترتيب الجلسات",
+        "description": "رسالة تأكيد عند تحديث ترتيب الجلسات"
+    },
+    "tabOrderUpdated": {
+        "message": "تم تحديث ترتيب علامات التبويب",
+        "description": "رسالة تأكيد عند تحديث ترتيب علامات التبويب"
+    },
+    "errorRenderingTab": {
+        "message": "خطأ في عرض علامة التبويب:",
+        "description": "رسالة الخطأ عند فشل عرض علامة التبويب"
+    },
+    "drag": {
+        "message": "اسحب",
+        "description": "النص البديل لصورة مقبض السحب"
+    },
+    "favicon": {
+        "message": "رمز الموقع",
+        "description": "النص البديل لصورة رمز الموقع"
+    },
+    "close": {
+        "message": "إغلاق",
+        "description": "النص البديل لزر الإغلاق"
+    },
+    "openInNewWindow": {
+        "message": "افتح في نافذة جديدة",
+        "description": "النص البديل لزر الفتح في نافذة جديدة"
+    },
+    "delete": {
+        "message": "حذف",
+        "description": "النص البديل لزر الحذف"
+    },
+    "testMessage": {
+        "message": "رسالة اختبار",
+        "description": "عنصر نائب للاختبار"
+    }
+}

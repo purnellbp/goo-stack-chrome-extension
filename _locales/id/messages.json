@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Nama ekstensi"
+    },
+    "extensionDescription": {
+        "message": "Kelola dan atur tab Anda dengan efisien.",
+        "description": "Deskripsi untuk ekstensi di manifest"
+    },
+    "savedSessions": {
+        "message": "Sesi Tersimpan",
+        "description": "Judul untuk sesi yang tersimpan"
+    },
+    "nameCurrentSession": {
+        "message": "Nama sesi saat ini...",
+        "description": "Teks placeholder untuk input nama sesi"
+    },
+    "saveSession": {
+        "message": "Simpan Sesi",
+        "description": "Teks tombol untuk menyimpan sesi"
+    },
+    "openTabs": {
+        "message": "Tab Terbuka",
+        "description": "Judul untuk kolom tab yang terbuka"
+    },
+    "searchTabs": {
+        "message": "Cari tab...",
+        "description": "Teks placeholder untuk mencari tab"
+    },
+    "settings": {
+        "message": "Pengaturan",
+        "description": "Judul untuk kolom pengaturan"
+    },
+    "hideLocalTabs": {
+        "message": "Sembunyikan tab lokal",
+        "description": "Label untuk menyembunyikan tab lokal"
+    },
+    "followMe": {
+        "message": "Ikuti saya di",
+        "description": "Teks untuk tautan media sosial"
+    },
+    "openTabsCount": {
+        "message": "Tab Terbuka ($1)",
+        "description": "Judul tab terbuka dengan hitungan.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Sesi Tersimpan",
+        "description": "Judul sesi tersimpan dengan hitungan.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Silakan masukkan nama sesi.",
+        "description": "Pesan kesalahan ketika nama sesi kosong."
+    },
+    "sessionSaved": {
+        "message": "Sesi \"$1\" disimpan!",
+        "description": "Pesan konfirmasi ketika sesi disimpan.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Sesi Saya"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Kesalahan saat menyimpan sesi. Silakan coba lagi.",
+        "description": "Pesan kesalahan ketika penyimpanan sesi gagal."
+    },
+    "sessionDeleted": {
+        "message": "Sesi \"$1\" dihapus.",
+        "description": "Pesan konfirmasi ketika sesi dihapus.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Sesi Saya"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Kesalahan saat menghapus sesi. Silakan coba lagi.",
+        "description": "Pesan kesalahan ketika penghapusan sesi gagal."
+    },
+    "errorActivatingTab": {
+        "message": "Kesalahan mengaktifkan tab: $1",
+        "description": "Pesan kesalahan ketika mengaktifkan tab gagal.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "beberapa kesalahan"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Urutan sesi diperbarui",
+        "description": "Pesan konfirmasi ketika urutan sesi diperbarui."
+    },
+    "tabOrderUpdated": {
+        "message": "Urutan tab diperbarui",
+        "description": "Pesan konfirmasi ketika urutan tab diperbarui."
+    },
+    "errorRenderingTab": {
+        "message": "Kesalahan saat merender tab:",
+        "description": "Pesan kesalahan ketika merender tab gagal."
+    },
+    "drag": {
+        "message": "Seret",
+        "description": "Teks alternatif untuk gambar pegangan seret."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Teks alternatif untuk gambar favicon."
+    },
+    "close": {
+        "message": "Tutup",
+        "description": "Teks alternatif untuk gambar tombol tutup."
+    },
+    "openInNewWindow": {
+        "message": "Buka di Jendela Baru",
+        "description": "Teks alternatif untuk gambar tombol buka di jendela baru."
+    },
+    "delete": {
+        "message": "Hapus",
+        "description": "Teks alternatif untuk gambar tombol hapus."
+    },
+    "testMessage": {
+        "message": "Pesan uji",
+        "description": "Placeholder uji"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Uzantının adı"
+    },
+    "extensionDescription": {
+        "message": "Sekmelerinizi verimli bir şekilde yönetin ve düzenleyin.",
+        "description": "Manifesto için uzantının açıklaması"
+    },
+    "savedSessions": {
+        "message": "Kaydedilmiş Oturumlar",
+        "description": "Kaydedilmiş oturumlar için başlık"
+    },
+    "nameCurrentSession": {
+        "message": "Mevcut oturumu adlandır...",
+        "description": "Oturum girişi için yer tutucu metin"
+    },
+    "saveSession": {
+        "message": "Oturumu Kaydet",
+        "description": "Oturumu kaydetmek için buton metni"
+    },
+    "openTabs": {
+        "message": "Açık Sekmeler",
+        "description": "Açık sekmeler sütunu için başlık"
+    },
+    "searchTabs": {
+        "message": "Sekmeleri Ara...",
+        "description": "Sekmeleri aramak için yer tutucu metin"
+    },
+    "settings": {
+        "message": "Ayarlar",
+        "description": "Ayarlar sütunu için başlık"
+    },
+    "hideLocalTabs": {
+        "message": "Yerel sekmeleri gizle",
+        "description": "Yerel sekmeleri gizlemek için etiket"
+    },
+    "followMe": {
+        "message": "Beni takip et",
+        "description": "Sosyal medya bağlantısı için metin"
+    },
+    "openTabsCount": {
+        "message": "Açık Sekmeler ($1)",
+        "description": "Açık sekmeler başlığı ile birlikte sayı.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Kaydedilmiş Oturum",
+        "description": "Kaydedilmiş oturum başlığı ile birlikte sayı.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Lütfen bir oturum adı girin.",
+        "description": "Oturum adı boş olduğunda hata mesajı."
+    },
+    "sessionSaved": {
+        "message": "\"$1\" oturumu kaydedildi!",
+        "description": "Oturum kaydedildiğinde onay mesajı.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Benim Oturumum"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Oturum kaydedilirken hata oluştu. Lütfen tekrar deneyin.",
+        "description": "Oturum kaydetme işlemi başarısız olduğunda hata mesajı."
+    },
+    "sessionDeleted": {
+        "message": "\"$1\" oturumu silindi.",
+        "description": "Oturum silindiğinde onay mesajı.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Benim Oturumum"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Oturum silinirken hata oluştu. Lütfen tekrar deneyin.",
+        "description": "Oturum silme işlemi başarısız olduğunda hata mesajı."
+    },
+    "errorActivatingTab": {
+        "message": "Sekme etkinleştirilirken hata: $1",
+        "description": "Sekme etkinleştirme işlemi başarısız olduğunda hata mesajı.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "bir hata"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Oturum sırası güncellendi",
+        "description": "Oturum sırası güncellendiğinde onay mesajı."
+    },
+    "tabOrderUpdated": {
+        "message": "Sekme sırası güncellendi",
+        "description": "Sekme sırası güncellendiğinde onay mesajı."
+    },
+    "errorRenderingTab": {
+        "message": "Sekme render edilirken hata:",
+        "description": "Sekme render işlemi başarısız olduğunda hata mesajı."
+    },
+    "drag": {
+        "message": "Sürükle",
+        "description": "Sürükleme tutamağı görüntüsü için alternatif metin."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Favicon görüntüsü için alternatif metin."
+    },
+    "close": {
+        "message": "Kapat",
+        "description": "Kapatma düğmesi görüntüsü için alternatif metin."
+    },
+    "openInNewWindow": {
+        "message": "Yeni Pencerede Aç",
+        "description": "Yeni pencerede açma düğmesi görüntüsü için alternatif metin."
+    },
+    "delete": {
+        "message": "Sil",
+        "description": "Silme düğmesi görüntüsü için alternatif metin."
+    },
+    "testMessage": {
+        "message": "Test mesajı",
+        "description": "Test için yer tutucu"
+    }
+}

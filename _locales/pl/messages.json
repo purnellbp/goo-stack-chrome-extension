@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Nazwa rozszerzenia"
+    },
+    "extensionDescription": {
+        "message": "Efektywnie zarządzaj i organizuj swoje karty.",
+        "description": "Opis rozszerzenia w manifeście"
+    },
+    "savedSessions": {
+        "message": "Zapisane Sesje",
+        "description": "Nagłówek dla zapisanych sesji"
+    },
+    "nameCurrentSession": {
+        "message": "Nazwij bieżącą sesję...",
+        "description": "Tekst zastępczy dla pola nazwy sesji"
+    },
+    "saveSession": {
+        "message": "Zapisz Sesję",
+        "description": "Tekst przycisku do zapisywania sesji"
+    },
+    "openTabs": {
+        "message": "Otwarte Karty",
+        "description": "Nagłówek dla kolumny z otwartymi kartami"
+    },
+    "searchTabs": {
+        "message": "Szukaj kart...",
+        "description": "Tekst zastępczy do wyszukiwania kart"
+    },
+    "settings": {
+        "message": "Ustawienia",
+        "description": "Nagłówek dla kolumny ustawień"
+    },
+    "hideLocalTabs": {
+        "message": "Ukryj lokalne karty",
+        "description": "Etykieta do ukrywania lokalnych kart"
+    },
+    "followMe": {
+        "message": "Śledź mnie na",
+        "description": "Tekst dla linku do mediów społecznościowych"
+    },
+    "openTabsCount": {
+        "message": "Otwarte Karty ($1)",
+        "description": "Nagłówek kart otwartych z liczbą.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Zapisanych Sesji",
+        "description": "Nagłówek dla zapisanych sesji z liczbą.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Proszę wpisać nazwę sesji.",
+        "description": "Komunikat o błędzie, gdy nazwa sesji jest pusta."
+    },
+    "sessionSaved": {
+        "message": "Sesja \"$1\" zapisana!",
+        "description": "Komunikat potwierdzający, gdy sesja została zapisana.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Moja Sesja"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Błąd podczas zapisywania sesji. Proszę spróbować ponownie.",
+        "description": "Komunikat o błędzie, gdy zapisywanie sesji nie powiodło się."
+    },
+    "sessionDeleted": {
+        "message": "Sesja \"$1\" usunięta.",
+        "description": "Komunikat potwierdzający, gdy sesja została usunięta.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Moja Sesja"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Błąd podczas usuwania sesji. Proszę spróbować ponownie.",
+        "description": "Komunikat o błędzie, gdy usuwanie sesji nie powiodło się."
+    },
+    "errorActivatingTab": {
+        "message": "Błąd aktywacji karty: $1",
+        "description": "Komunikat o błędzie, gdy aktywacja karty nie powiodła się.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "jakieś błędy"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Kolejność sesji zaktualizowana",
+        "description": "Komunikat potwierdzający, gdy kolejność sesji została zaktualizowana."
+    },
+    "tabOrderUpdated": {
+        "message": "Kolejność kart zaktualizowana",
+        "description": "Komunikat potwierdzający, gdy kolejność kart została zaktualizowana."
+    },
+    "errorRenderingTab": {
+        "message": "Błąd podczas renderowania karty:",
+        "description": "Komunikat o błędzie, gdy renderowanie karty nie powiodło się."
+    },
+    "drag": {
+        "message": "Przeciągnij",
+        "description": "Tekst alternatywny dla obrazu uchwytu do przeciągania."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Tekst alternatywny dla obrazu favicon."
+    },
+    "close": {
+        "message": "Zamknij",
+        "description": "Tekst alternatywny dla obrazu przycisku zamknięcia."
+    },
+    "openInNewWindow": {
+        "message": "Otwórz w Nowym Oknie",
+        "description": "Tekst alternatywny dla obrazu przycisku otwierania w nowym oknie."
+    },
+    "delete": {
+        "message": "Usuń",
+        "description": "Tekst alternatywny dla obrazu przycisku usuwania."
+    },
+    "testMessage": {
+        "message": "Wiadomość testowa",
+        "description": "Zastępczy tekst do testu"
+    }
+}

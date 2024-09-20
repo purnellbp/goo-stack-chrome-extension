@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Nama sambungan"
+    },
+    "extensionDescription": {
+        "message": "Urus dan atur tab anda dengan cekap.",
+        "description": "Deskripsi untuk sambungan dalam manifest"
+    },
+    "savedSessions": {
+        "message": "Sesi Tersimpan",
+        "description": "Tajuk untuk sesi yang disimpan"
+    },
+    "nameCurrentSession": {
+        "message": "Namakan sesi semasa...",
+        "description": "Teks pemegang tempat untuk input nama sesi"
+    },
+    "saveSession": {
+        "message": "Simpan Sesi",
+        "description": "Teks butang untuk menyimpan sesi"
+    },
+    "openTabs": {
+        "message": "Tab Terbuka",
+        "description": "Tajuk untuk lajur tab yang terbuka"
+    },
+    "searchTabs": {
+        "message": "Cari tab...",
+        "description": "Teks pemegang tempat untuk mencari tab"
+    },
+    "settings": {
+        "message": "Tetapan",
+        "description": "Tajuk untuk lajur tetapan"
+    },
+    "hideLocalTabs": {
+        "message": "Sembunyikan tab tempatan",
+        "description": "Label untuk menyembunyikan tab tempatan"
+    },
+    "followMe": {
+        "message": "Ikuti saya di",
+        "description": "Teks untuk pautan media sosial"
+    },
+    "openTabsCount": {
+        "message": "Tab Terbuka ($1)",
+        "description": "Tajuk untuk tab terbuka dengan jumlah.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Sesi Tersimpan",
+        "description": "Tajuk untuk sesi tersimpan dengan jumlah.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Sila masukkan nama sesi.",
+        "description": "Mesej ralat apabila nama sesi kosong."
+    },
+    "sessionSaved": {
+        "message": "Sesi \"$1\" telah disimpan!",
+        "description": "Mesej pengesahan apabila sesi disimpan.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Sesi Saya"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Ralat semasa menyimpan sesi. Sila cuba lagi.",
+        "description": "Mesej ralat apabila penyimpanan sesi gagal."
+    },
+    "sessionDeleted": {
+        "message": "Sesi \"$1\" telah dipadam.",
+        "description": "Mesej pengesahan apabila sesi dipadam.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Sesi Saya"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Ralat semasa memadam sesi. Sila cuba lagi.",
+        "description": "Mesej ralat apabila pemadaman sesi gagal."
+    },
+    "errorActivatingTab": {
+        "message": "Ralat semasa mengaktifkan tab: $1",
+        "description": "Mesej ralat apabila pengaktifan tab gagal.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "beberapa ralat"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Susunan sesi telah dikemas kini",
+        "description": "Mesej pengesahan apabila susunan sesi dikemas kini."
+    },
+    "tabOrderUpdated": {
+        "message": "Susunan tab telah dikemas kini",
+        "description": "Mesej pengesahan apabila susunan tab dikemas kini."
+    },
+    "errorRenderingTab": {
+        "message": "Ralat semasa merender tab:",
+        "description": "Mesej ralat apabila merender tab gagal."
+    },
+    "drag": {
+        "message": "Seret",
+        "description": "Teks alternatif untuk gambar pemegang seret."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Teks alternatif untuk gambar favicon."
+    },
+    "close": {
+        "message": "Tutup",
+        "description": "Teks alternatif untuk gambar butang tutup."
+    },
+    "openInNewWindow": {
+        "message": "Buka di Tetingkap Baru",
+        "description": "Teks alternatif untuk gambar butang buka di tetingkap baru."
+    },
+    "delete": {
+        "message": "Padam",
+        "description": "Teks alternatif untuk gambar butang padam."
+    },
+    "testMessage": {
+        "message": "Mesej ujian",
+        "description": "Pemegang tempat untuk ujian"
+    }
+}

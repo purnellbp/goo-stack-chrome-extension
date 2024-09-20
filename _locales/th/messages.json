@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "ชื่อของส่วนขยาย"
+    },
+    "extensionDescription": {
+        "message": "จัดการและจัดระเบียบแท็บของคุณอย่างมีประสิทธิภาพ.",
+        "description": "คำอธิบายสำหรับส่วนขยายใน manifest"
+    },
+    "savedSessions": {
+        "message": "เซสชันที่บันทึกไว้",
+        "description": "หัวข้อสำหรับเซสชันที่บันทึกไว้"
+    },
+    "nameCurrentSession": {
+        "message": "ตั้งชื่อเซสชันปัจจุบัน...",
+        "description": "ข้อความตัวอย่างสำหรับการป้อนชื่อเซสชัน"
+    },
+    "saveSession": {
+        "message": "บันทึกเซสชัน",
+        "description": "ข้อความปุ่มสำหรับบันทึกเซสชัน"
+    },
+    "openTabs": {
+        "message": "แท็บที่เปิดอยู่",
+        "description": "หัวข้อสำหรับคอลัมน์แท็บที่เปิดอยู่"
+    },
+    "searchTabs": {
+        "message": "ค้นหาแท็บ...",
+        "description": "ข้อความตัวอย่างสำหรับการค้นหาแท็บ"
+    },
+    "settings": {
+        "message": "การตั้งค่า",
+        "description": "หัวข้อสำหรับคอลัมน์การตั้งค่า"
+    },
+    "hideLocalTabs": {
+        "message": "ซ่อนแท็บท้องถิ่น",
+        "description": "ป้ายกำกับสำหรับซ่อนแท็บท้องถิ่น"
+    },
+    "followMe": {
+        "message": "ติดตามฉันที่",
+        "description": "ข้อความสำหรับลิงก์โซเชียลมีเดีย"
+    },
+    "openTabsCount": {
+        "message": "แท็บที่เปิดอยู่ ($1)",
+        "description": "หัวข้อแท็บที่เปิดอยู่พร้อมจำนวน.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 เซสชันที่บันทึกไว้",
+        "description": "หัวข้อเซสชันที่บันทึกไว้พร้อมจำนวน.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "กรุณาใส่ชื่อเซสชัน.",
+        "description": "ข้อความผิดพลาดเมื่อชื่อเซสชันว่างเปล่า."
+    },
+    "sessionSaved": {
+        "message": "เซสชัน \"$1\" ได้รับการบันทึก!",
+        "description": "ข้อความยืนยันเมื่อเซสชันถูกบันทึก.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "เซสชันของฉัน"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "เกิดข้อผิดพลาดขณะบันทึกเซสชัน กรุณาลองอีกครั้ง.",
+        "description": "ข้อความผิดพลาดเมื่อการบันทึกเซสชันล้มเหลว."
+    },
+    "sessionDeleted": {
+        "message": "เซสชัน \"$1\" ถูกลบ.",
+        "description": "ข้อความยืนยันเมื่อเซสชันถูกลบ.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "เซสชันของฉัน"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "เกิดข้อผิดพลาดขณะลบเซสชัน กรุณาลองอีกครั้ง.",
+        "description": "ข้อความผิดพลาดเมื่อการลบเซสชันล้มเหลว."
+    },
+    "errorActivatingTab": {
+        "message": "เกิดข้อผิดพลาดขณะเปิดแท็บ: $1",
+        "description": "ข้อความผิดพลาดเมื่อการเปิดแท็บล้มเหลว.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "ข้อผิดพลาดบางประการ"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "เรียงลำดับเซสชันอัปเดตแล้ว",
+        "description": "ข้อความยืนยันเมื่อเรียงลำดับเซสชันถูกอัปเดต."
+    },
+    "tabOrderUpdated": {
+        "message": "เรียงลำดับแท็บอัปเดตแล้ว",
+        "description": "ข้อความยืนยันเมื่อเรียงลำดับแท็บถูกอัปเดต."
+    },
+    "errorRenderingTab": {
+        "message": "เกิดข้อผิดพลาดขณะเรนเดอร์แท็บ:",
+        "description": "ข้อความผิดพลาดเมื่อการเรนเดอร์แท็บล้มเหลว."
+    },
+    "drag": {
+        "message": "ลาก",
+        "description": "ข้อความทางเลือกสำหรับภาพมือจับลาก."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "ข้อความทางเลือกสำหรับภาพ favicon."
+    },
+    "close": {
+        "message": "ปิด",
+        "description": "ข้อความทางเลือกสำหรับภาพปุ่มปิด."
+    },
+    "openInNewWindow": {
+        "message": "เปิดในหน้าต่างใหม่",
+        "description": "ข้อความทางเลือกสำหรับภาพปุ่มเปิดในหน้าต่างใหม่."
+    },
+    "delete": {
+        "message": "ลบ",
+        "description": "ข้อความทางเลือกสำหรับภาพปุ่มลบ."
+    },
+    "testMessage": {
+        "message": "ข้อความทดสอบ",
+        "description": "ข้อความตัวอย่างสำหรับการทดสอบ"
+    }
+}

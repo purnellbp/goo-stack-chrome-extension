@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Il nome dell'estensione"
+    },
+    "extensionDescription": {
+        "message": "Gestisci e organizza le tue schede in modo efficiente.",
+        "description": "Descrizione per l'estensione nel manifest"
+    },
+    "savedSessions": {
+        "message": "Sessioni Salvate",
+        "description": "Il titolo per le sessioni salvate"
+    },
+    "nameCurrentSession": {
+        "message": "Nomina la sessione attuale...",
+        "description": "Testo segnaposto per l'input della sessione"
+    },
+    "saveSession": {
+        "message": "Salva Sessione",
+        "description": "Testo del pulsante per salvare una sessione"
+    },
+    "openTabs": {
+        "message": "Schede Aperte",
+        "description": "Titolo per la colonna delle schede aperte"
+    },
+    "searchTabs": {
+        "message": "Cerca schede...",
+        "description": "Testo segnaposto per cercare schede"
+    },
+    "settings": {
+        "message": "Impostazioni",
+        "description": "Titolo per la colonna delle impostazioni"
+    },
+    "hideLocalTabs": {
+        "message": "Nascondi schede locali",
+        "description": "Etichetta per nascondere schede locali"
+    },
+    "followMe": {
+        "message": "Seguimi su",
+        "description": "Testo per il link ai social media"
+    },
+    "openTabsCount": {
+        "message": "Schede Aperte ($1)",
+        "description": "Titolo delle schede aperte con conteggio.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Sessioni Salvate",
+        "description": "Titolo delle sessioni salvate con conteggio.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Inserisci un nome per la sessione.",
+        "description": "Messaggio di errore quando il nome della sessione è vuoto."
+    },
+    "sessionSaved": {
+        "message": "Sessione \"$1\" salvata!",
+        "description": "Messaggio di conferma quando la sessione è salvata.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "La Mia Sessione"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Errore durante il salvataggio della sessione. Riprova.",
+        "description": "Messaggio di errore quando il salvataggio della sessione fallisce."
+    },
+    "sessionDeleted": {
+        "message": "Sessione \"$1\" eliminata.",
+        "description": "Messaggio di conferma quando la sessione è eliminata.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "La Mia Sessione"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Errore durante l'eliminazione della sessione. Riprova.",
+        "description": "Messaggio di errore quando l'eliminazione della sessione fallisce."
+    },
+    "errorActivatingTab": {
+        "message": "Errore nell'attivazione della scheda: $1",
+        "description": "Messaggio di errore quando l'attivazione della scheda fallisce.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "qualche errore"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Ordine delle sessioni aggiornato",
+        "description": "Messaggio di conferma quando l'ordine delle sessioni è aggiornato."
+    },
+    "tabOrderUpdated": {
+        "message": "Ordine delle schede aggiornato",
+        "description": "Messaggio di conferma quando l'ordine delle schede è aggiornato."
+    },
+    "errorRenderingTab": {
+        "message": "Errore durante il rendering della scheda:",
+        "description": "Messaggio di errore quando il rendering di una scheda fallisce."
+    },
+    "drag": {
+        "message": "Trascina",
+        "description": "Testo alternativo per l'immagine della maniglia di trascinamento."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Testo alternativo per l'immagine della favicon."
+    },
+    "close": {
+        "message": "Chiudi",
+        "description": "Testo alternativo per l'immagine del pulsante di chiusura."
+    },
+    "openInNewWindow": {
+        "message": "Apri in Nuova Finestra",
+        "description": "Testo alternativo per l'immagine del pulsante di apertura in nuova finestra."
+    },
+    "delete": {
+        "message": "Elimina",
+        "description": "Testo alternativo per l'immagine del pulsante di eliminazione."
+    },
+    "testMessage": {
+        "message": "Messaggio di prova",
+        "description": "Segnaposto di prova"
+    }
+}

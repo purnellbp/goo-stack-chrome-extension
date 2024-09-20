@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "نام افزونه"
+    },
+    "extensionDescription": {
+        "message": "تب‌های خود را به‌طور مؤثر مدیریت و سازماندهی کنید.",
+        "description": "توضیح برای افزونه در منیفست"
+    },
+    "savedSessions": {
+        "message": "نشست‌های ذخیره شده",
+        "description": "عنوان برای نشست‌های ذخیره شده"
+    },
+    "nameCurrentSession": {
+        "message": "نام‌گذاری نشست فعلی...",
+        "description": "متن نگهدارنده برای ورودی نام نشست"
+    },
+    "saveSession": {
+        "message": "ذخیره نشست",
+        "description": "متن دکمه برای ذخیره یک نشست"
+    },
+    "openTabs": {
+        "message": "تب‌های باز",
+        "description": "عنوان برای ستون تب‌های باز"
+    },
+    "searchTabs": {
+        "message": "جستجوی تب‌ها...",
+        "description": "متن نگهدارنده برای جستجوی تب‌ها"
+    },
+    "settings": {
+        "message": "تنظیمات",
+        "description": "عنوان برای ستون تنظیمات"
+    },
+    "hideLocalTabs": {
+        "message": "مخفی کردن تب‌های محلی",
+        "description": "برچسب برای مخفی کردن تب‌های محلی"
+    },
+    "followMe": {
+        "message": "دنبال کنید من را در",
+        "description": "متن برای لینک به شبکه‌های اجتماعی"
+    },
+    "openTabsCount": {
+        "message": "تب‌های باز ($1)",
+        "description": "عنوان تب‌های باز با تعداد.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 نشست ذخیره شده",
+        "description": "عنوان برای نشست‌های ذخیره شده با تعداد.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "لطفاً نام نشست را وارد کنید.",
+        "description": "پیام خطا وقتی که نام نشست خالی است."
+    },
+    "sessionSaved": {
+        "message": "نشست \"$1\" ذخیره شد!",
+        "description": "پیام تأیید وقتی که نشست ذخیره می‌شود.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "نشست من"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "خطا در ذخیره نشست. لطفاً دوباره تلاش کنید.",
+        "description": "پیام خطا وقتی که ذخیره نشست ناموفق است."
+    },
+    "sessionDeleted": {
+        "message": "نشست \"$1\" حذف شد.",
+        "description": "پیام تأیید وقتی که نشست حذف می‌شود.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "نشست من"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "خطا در حذف نشست. لطفاً دوباره تلاش کنید.",
+        "description": "پیام خطا وقتی که حذف نشست ناموفق است."
+    },
+    "errorActivatingTab": {
+        "message": "خطا در فعال‌سازی تب: $1",
+        "description": "پیام خطا وقتی که فعال‌سازی تب ناموفق است.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "یک خطا"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "ترتیب نشست‌ها به‌روز شد",
+        "description": "پیام تأیید وقتی که ترتیب نشست‌ها به‌روز می‌شود."
+    },
+    "tabOrderUpdated": {
+        "message": "ترتیب تب‌ها به‌روز شد",
+        "description": "پیام تأیید وقتی که ترتیب تب‌ها به‌روز می‌شود."
+    },
+    "errorRenderingTab": {
+        "message": "خطا در رندرینگ تب:",
+        "description": "پیام خطا وقتی که رندرینگ تب ناموفق است."
+    },
+    "drag": {
+        "message": "بکشید",
+        "description": "متن جایگزین برای تصویر دسته کشیدن."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "متن جایگزین برای تصویر favicon."
+    },
+    "close": {
+        "message": "ببندید",
+        "description": "متن جایگزین برای تصویر دکمه بستن."
+    },
+    "openInNewWindow": {
+        "message": "باز کردن در پنجره جدید",
+        "description": "متن جایگزین برای تصویر دکمه باز کردن در پنجره جدید."
+    },
+    "delete": {
+        "message": "حذف",
+        "description": "متن جایگزین برای تصویر دکمه حذف."
+    },
+    "testMessage": {
+        "message": "پیام آزمایشی",
+        "description": "متن نگهدارنده برای آزمایش"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "拡張機能の名前"
+    },
+    "extensionDescription": {
+        "message": "効率的にタブを管理および整理します。",
+        "description": "拡張機能の説明"
+    },
+    "savedSessions": {
+        "message": "保存されたセッション",
+        "description": "保存されたセッションの見出し"
+    },
+    "nameCurrentSession": {
+        "message": "現在のセッション名を入力...",
+        "description": "セッション入力フィールドのプレースホルダー"
+    },
+    "saveSession": {
+        "message": "セッションを保存",
+        "description": "セッションを保存するボタンのテキスト"
+    },
+    "openTabs": {
+        "message": "開いているタブ",
+        "description": "開いているタブの列の見出し"
+    },
+    "searchTabs": {
+        "message": "タブを検索...",
+        "description": "タブを検索するためのプレースホルダー"
+    },
+    "settings": {
+        "message": "設定",
+        "description": "設定列の見出し"
+    },
+    "hideLocalTabs": {
+        "message": "ローカルタブを非表示",
+        "description": "ローカルタブを非表示にするラベル"
+    },
+    "followMe": {
+        "message": "フォローしてください",
+        "description": "ソーシャルメディアリンク用のテキスト"
+    },
+    "openTabsCount": {
+        "message": "開いているタブ ($1)",
+        "description": "タブ数を含む開いているタブの見出し。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 保存されたセッション",
+        "description": "セッション数を含む保存されたセッションの見出し。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "セッション名を入力してください。",
+        "description": "セッション名が空の場合のエラーメッセージ。"
+    },
+    "sessionSaved": {
+        "message": "セッション \"$1\" が保存されました！",
+        "description": "セッション保存時の確認メッセージ。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "マイセッション"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "セッションの保存に失敗しました。もう一度お試しください。",
+        "description": "セッションの保存に失敗したときのエラーメッセージ。"
+    },
+    "sessionDeleted": {
+        "message": "セッション \"$1\" が削除されました。",
+        "description": "セッション削除時の確認メッセージ。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "マイセッション"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "セッションの削除に失敗しました。もう一度お試しください。",
+        "description": "セッションの削除に失敗したときのエラーメッセージ。"
+    },
+    "errorActivatingTab": {
+        "message": "タブのアクティブ化に失敗しました: $1",
+        "description": "タブのアクティブ化に失敗したときのエラーメッセージ。",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "エラー"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "セッションの順序が更新されました",
+        "description": "セッションの順序が更新されたときの確認メッセージ"
+    },
+    "tabOrderUpdated": {
+        "message": "タブの順序が更新されました",
+        "description": "タブの順序が更新されたときの確認メッセージ"
+    },
+    "errorRenderingTab": {
+        "message": "タブのレンダリングに失敗しました:",
+        "description": "タブのレンダリングに失敗したときのエラーメッセージ"
+    },
+    "drag": {
+        "message": "ドラッグ",
+        "description": "ドラッグハンドル画像の代替テキスト"
+    },
+    "favicon": {
+        "message": "ファビコン",
+        "description": "ファビコン画像の代替テキスト"
+    },
+    "close": {
+        "message": "閉じる",
+        "description": "閉じるボタンの代替テキスト"
+    },
+    "openInNewWindow": {
+        "message": "新しいウィンドウで開く",
+        "description": "新しいウィンドウで開くボタンの代替テキスト"
+    },
+    "delete": {
+        "message": "削除",
+        "description": "削除ボタンの代替テキスト"
+    },
+    "testMessage": {
+        "message": "テストメッセージ",
+        "description": "テスト用のプレースホルダー"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Goo Stack",
+        "description": "Pangalan ng extension"
+    },
+    "extensionDescription": {
+        "message": "Epektibong pamahalaan at ayusin ang iyong mga tab.",
+        "description": "Paglalarawan para sa extension sa manifest"
+    },
+    "savedSessions": {
+        "message": "Naka-save na Sesyon",
+        "description": "Pamagat para sa mga naka-save na sesyon"
+    },
+    "nameCurrentSession": {
+        "message": "Pangalanan ang kasalukuyang sesyon...",
+        "description": "Placeholder na teksto para sa input ng pangalan ng sesyon"
+    },
+    "saveSession": {
+        "message": "I-save ang Sesyon",
+        "description": "Teksto ng pindutan para sa pag-save ng sesyon"
+    },
+    "openTabs": {
+        "message": "Bukas na Tab",
+        "description": "Pamagat para sa column ng mga bukas na tab"
+    },
+    "searchTabs": {
+        "message": "Maghanap ng tab...",
+        "description": "Placeholder na teksto para sa paghahanap ng tab"
+    },
+    "settings": {
+        "message": "Mga Setting",
+        "description": "Pamagat para sa column ng mga setting"
+    },
+    "hideLocalTabs": {
+        "message": "Itago ang lokal na tab",
+        "description": "Label para sa pagtatago ng mga lokal na tab"
+    },
+    "followMe": {
+        "message": "Sundan mo ako sa",
+        "description": "Teksto para sa link sa social media"
+    },
+    "openTabsCount": {
+        "message": "Bukas na Tab ($1)",
+        "description": "Pamagat ng bukas na tab na may bilang.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "savedSessionsCount": {
+        "message": "$1 Naka-save na Sesyon",
+        "description": "Pamagat para sa mga naka-save na sesyon na may bilang.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "pleaseEnterSessionName": {
+        "message": "Pakipasok ang pangalan ng sesyon.",
+        "description": "Mensaheng error kapag ang pangalan ng sesyon ay walang laman."
+    },
+    "sessionSaved": {
+        "message": "Nasave ang sesyon \"$1\"!",
+        "description": "Mensaheng kumpirmasyon kapag ang sesyon ay na-save.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Aking Sesyon"
+            }
+        }
+    },
+    "errorSavingSession": {
+        "message": "Error sa pag-save ng sesyon. Pakisubukan muli.",
+        "description": "Mensaheng error kapag ang pag-save ng sesyon ay nabigo."
+    },
+    "sessionDeleted": {
+        "message": "Nawala ang sesyon \"$1\".",
+        "description": "Mensaheng kumpirmasyon kapag ang sesyon ay na-delete.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Aking Sesyon"
+            }
+        }
+    },
+    "errorDeletingSession": {
+        "message": "Error sa pag-delete ng sesyon. Pakisubukan muli.",
+        "description": "Mensaheng error kapag ang pag-delete ng sesyon ay nabigo."
+    },
+    "errorActivatingTab": {
+        "message": "Error sa pag-activate ng tab: $1",
+        "description": "Mensaheng error kapag ang pag-activate ng tab ay nabigo.",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "ilang error"
+            }
+        }
+    },
+    "sessionOrderUpdated": {
+        "message": "Na-update ang pagkakasunod-sunod ng sesyon",
+        "description": "Mensaheng kumpirmasyon kapag ang pagkakasunod-sunod ng sesyon ay na-update."
+    },
+    "tabOrderUpdated": {
+        "message": "Na-update ang pagkakasunod-sunod ng tab",
+        "description": "Mensaheng kumpirmasyon kapag ang pagkakasunod-sunod ng tab ay na-update."
+    },
+    "errorRenderingTab": {
+        "message": "Error sa pag-render ng tab:",
+        "description": "Mensaheng error kapag ang pag-render ng tab ay nabigo."
+    },
+    "drag": {
+        "message": "I-drag",
+        "description": "Alternatibong teksto para sa larawan ng drag handle."
+    },
+    "favicon": {
+        "message": "Favicon",
+        "description": "Alternatibong teksto para sa larawan ng favicon."
+    },
+    "close": {
+        "message": "Isara",
+        "description": "Alternatibong teksto para sa larawan ng close button."
+    },
+    "openInNewWindow": {
+        "message": "Buksan sa Bagong Bintana",
+        "description": "Alternatibong teksto para sa larawan ng button na magbubukas sa bagong bintana."
+    },
+    "delete": {
+        "message": "Tanggalin",
+        "description": "Alternatibong teksto para sa larawan ng delete button."
+    },
+    "testMessage": {
+        "message": "Mensaheng Pagsubok",
+        "description": "Placeholder para sa pagsubok"
+    }
+}
