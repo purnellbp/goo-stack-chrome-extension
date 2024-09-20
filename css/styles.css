@@ -1,0 +1,337 @@
+/* css/styles.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100%;
+}
+
+ul {
+  scrollbar-width: thin;
+}
+
+.sessions-column,
+.tabs-column {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 100%; /* Ensure full height */
+  overflow: hidden; /* Hide overflow */
+}
+
+h3 {
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-block {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+/* Sessions List */
+#sessions-list {
+  margin-bottom: 15px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  flex-grow: 1; /* Allow list to grow and take available space */
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+#sessions-list li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+
+}
+
+.drag-handle {
+  cursor: move;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.drag-handle img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.session-title {
+  flex-grow: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.new-window-btn,
+.close-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.new-window-btn img,
+.close-btn img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+/* li on hover underline text */
+#sessions-list li:hover {
+  text-decoration: underline;
+}
+
+/* Tabs List */
+#tabs-list {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+#tabs-list li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.audio-indicator {
+  display: flex;
+  align-items: flex-end;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.drag-handle, .tab-favicon, .audio-indicator, .close-btn {
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.audio-indicator {
+  animation: pulse 1s infinite;
+}
+
+.tab-title {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 8px;
+}
+
+.audio-indicator img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.tab-favicon, .audio-indicator {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+/* Toast */
+.toast {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: var(--toast-background);
+  color: var(--toast-text-color);
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 14px;
+}
+
+.toast.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/* Pulse animation for audio indicator */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Sortable styles */
+.sortable-ghost {
+  opacity: 0.5;
+}
+
+.sortable-chosen {
+  background-color: #f0f0f0;
+}
+
+/* Audio Wave Animation */
+@keyframes audioWave {
+  0% { height: 3px; }
+  50% { height: 10px; }
+  100% { height: 3px; }
+}
+
+.audio-wave {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background-color: #4CAF50;
+  margin-right: 2px;
+  animation: audioWave 0.5s ease infinite;
+}
+
+.audio-wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.audio-wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.audio-wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --border-color: #e0e0e0;
+  --item-background: #f5f5f5;
+  --input-background: #ffffff;
+  --input-text-color: #000000;
+  --input-border-color: #cccccc;
+  --button-background: #4a4a4a;
+  --button-text-color: #ffffff;
+  --button-hover-background: #333333;
+  --icon-invert: 0;
+  --toast-background: #333;
+  --toast-text-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #333333;
+    --text-color: #ffffff;
+    --border-color: #555555;
+    --item-background: #444444;
+    --input-background: #2a2a2a;
+    --input-text-color: #ffffff;
+    --input-border-color: #666666;
+    --button-hover-background: #5a5a5a;
+    --icon-invert: 1;
+    --toast-background: #555;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#tabs-list li, #sessions-list li {
+  background-color: var(--item-background);
+  border-color: var(--border-color);
+}
+
+input[type="text"] {
+  background-color: var(--input-background);
+  color: var(--input-text-color);
+  border: 1px solid var(--input-border-color);
+}
+
+/* Button styles */
+button, .button {
+  background-color: var(--button-background);
+  color: var(--button-text-color);
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+  background-color: var(--button-hover-background);
+}
+
+/* Specific styles for close and action buttons */
+.close-btn, .new-window-btn {
+  background-color: transparent;
+  padding: 4px;
+}
+
+.close-btn img, .new-window-btn img {
+  filter: invert(var(--icon-invert));
+}
+
+/* Add more style rules using these variables as needed */
+

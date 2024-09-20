@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Goo Stack</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="grid">
+      <!-- Saved Sessions Column -->
+      <div class="sessions-column">
+        <h3>Saved Sessions</h3>
+        <ul id="sessions-list" class="list"></ul>
+        <input type="text" id="session-name" class="input-block" placeholder="Name current session...">
+        <button id="save-session" class="button">Save Session</button>
+      </div>
+      
+      <!-- Open Tabs Column -->
+      <div class="tabs-column">
+        <h3>Open Tabs</h3>
+        <input type="text" id="search" class="input-block" placeholder="Search tabs...">
+        <ul id="tabs-list" class="list"></ul>
+      </div>
+    </div>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="js/Sortable.min.js"></script>
+  <script src="js/popup.js"></script>
+</body>
+</html>
